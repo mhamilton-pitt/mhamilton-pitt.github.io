@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google-site-verification : "google65e3081166ea7f18.html"
+google-site-verification : google65e3081166ea7f18.html
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Michael L. Hamilton"
   avatar           : "profile.png"
-  bio              : "Assistant Professor of Business Analytics and Operations at Pitt"
+  bio              : "Assistant Professor of Business Analytics and Operations at the University of Pittsburgh"
   location         : "Pittsburgh, PA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=kJjuGMgAAAAJ&hl=en"
