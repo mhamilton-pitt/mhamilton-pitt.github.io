@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Michael L. Hamilton"
   avatar           : "profile.png"
-  bio              : "Assistant Professor of Business Analytics and Operations at [Pitt](https://www.business.pitt.edu/people/michael-hamilton)"
+  bio              : "Assistant Professor of Business Analytics and Operations at Pitt"
   location         : "Pittsburgh, PA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=kJjuGMgAAAAJ&hl=en"
-  email            :
+  email            : "mhamilton@katz.pitt.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -101,7 +101,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/michael-hamilton-5b8378114/"
   orcid            : "https://orcid.org/0000-0002-4671-395X"
   pinterest        :
   soundcloud       :
