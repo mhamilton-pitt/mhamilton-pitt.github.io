@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michael Hamilton"
+title                    : "Michael L. Hamilton"
 title_separator          : "-"
 name                     : &name "Michael L. Hamilton"
 description              : &description "personal description"
@@ -95,13 +95,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/mhamilton-pitt"
+  github           : "mhamilton-pitt"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/michael-hamilton-5b8378114/"
+  linkedin         : "michael-hamilton-5b8378114/"
   orcid            : "https://orcid.org/0000-0002-4671-395X"
   pinterest        :
   soundcloud       :
