@@ -13,7 +13,7 @@ author_profile: true
 
 
 
-*Prospective Students
+* Prospective Students
   * If you’re a prospective Ph.D. candidate, please apply to our Ph.D. program in Data Science and Operations. Please specify in your application that you are interested in working with me, and what types of research problems excite you!
 
 
