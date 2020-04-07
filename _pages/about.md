@@ -14,4 +14,4 @@ I received my Ph.D. from Columbia University in the [Department of Industrial En
 
 For more details please see my [CV](https://mhamilton-pitt.github.io/files/Resume_CV.pdf), [Google Scholar](https://scholar.google.com/citations?user=kJjuGMgAAAAJ&hl=en), and list of [papers](https://mhamilton-pitt.github.io/publications/).
 
-[Interested in working with me?](https://mhamilton-pitt.github.io/collaboration/) I am actively seeking academic and industrial collaborators!
+[Interested in working with me?](https://mhamilton-pitt.github.io/collaboration/) 
