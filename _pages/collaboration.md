@@ -19,6 +19,6 @@ author_profile: true
     * Take a look at some of my research papers.
     * Email me so we can talk about your research so far, and what kinds of problems you want to collaborate on.
 
-  * If you’re a Undergradute/Master's student and want to collaborate on a project, please send me an email describing:
+  * If you’re a Undergraduate/Master's student and want to collaborate on a project, please send me an email describing:
     * Your relevant coursework.
     * Why you want to do a research project and what problems interest you.
