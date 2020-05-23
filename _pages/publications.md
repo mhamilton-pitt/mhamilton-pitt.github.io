@@ -14,7 +14,7 @@ author_profile: true
   * <span style="color: orange;">1st Place, IBM Best Student Paper Award in Service Science, 2019 (to Xiao Lei).</span>
 
 * [The Value of Personalized Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3127719) with Adam N. Elmachtoub and Vishal Gupta
-  * *Minor Revision* at **Management Science**
+  * **Management Science** (*Forthcoming*)
   * Accepted in *The 15th Conference on Web and Internet Economics (**WINE**)*, 2019.
   * <span style="color: orange;">Finalist, INFORMS Service Science Cluster Best Paper Award, 2018. </span>
 
