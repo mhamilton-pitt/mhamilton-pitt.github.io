@@ -19,5 +19,5 @@ author_profile: true
   * <span style="color: orange;">Finalist, INFORMS Service Science Cluster Best Paper Award, 2018. </span>
 
 * [The Power of Opaque Products in Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3025944) with Adam N. Elmachtoub
-  * *Minor Revision* at **Management Science**
+  * **Management Science** (*Forthcoming*)
   * Accepted in *The 13th Conference on Web and Internet Economics (**WINE**)*, 2017.
