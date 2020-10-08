@@ -7,17 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
-* [Loot Box Pricing and Design](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3430125) with Ningyuan Chen, Adam N. Elmachtoub, and Xiao Lei.
-  * **Management Science** (*Forthcoming*) [pdf](https://mhamilton-pitt.github.io/files/lb_final.pdf)
+* [Loot Box Pricing and Design](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3430125) with Ningyuan Chen, Adam N. Elmachtoub, and Xiao Lei. [pdf](https://mhamilton-pitt.github.io/files/lb_final.pdf)
+  * **Management Science** (*Forthcoming*) 
   * Accepted in *The 21st ACM Conference on Economics and Computation (**EC**)*, 2020.
   * Invited to present at the [Federal Trade Commission (FTC) Workshop on Consumer Issues Related to Loot Boxes](https://www.ftc.gov/news-events/events-calendar/inside-game-unlocking-consumer-issues-surrounding-loot-boxes), 2019 (one of four research papers selected).
   * <span style="color: orange;">1st Place, IBM Best Student Paper Award in Service Science, 2019 (to Xiao Lei).</span>
 
-* [The Value of Personalized Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3127719) with Adam N. Elmachtoub and Vishal Gupta
-  * **Management Science** (*Forthcoming*) [pdf](https://mhamilton-pitt.github.io/files/vopp_final.pdf)
+* [The Value of Personalized Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3127719) with Adam N. Elmachtoub and Vishal Gupta. [pdf](https://mhamilton-pitt.github.io/files/vopp_final.pdf)
+  * **Management Science** (*Forthcoming*) 
   * Accepted in *The 15th Conference on Web and Internet Economics (**WINE**)*, 2019.
   * <span style="color: orange;">Finalist, INFORMS Service Science Cluster Best Paper Award, 2018. </span>
 
-* [The Power of Opaque Products in Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3025944) with Adam N. Elmachtoub
-  * **Management Science** (*Forthcoming*) [pdf](https://mhamilton-pitt.github.io/files/opq_final.pdf)
+* [The Power of Opaque Products in Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3025944) with Adam N. Elmachtoub. [pdf](https://mhamilton-pitt.github.io/files/opq_final.pdf)
+  * **Management Science** (*Forthcoming*) 
   * Accepted in *The 13th Conference on Web and Internet Economics (**WINE**)*, 2017.
