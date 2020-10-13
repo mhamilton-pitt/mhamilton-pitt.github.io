@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+Note: Author ordering on all papers is alphabetical, as is convention in OR/MS.
+
 * [Loot Box Pricing and Design](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3430125) with Ningyuan Chen, Adam N. Elmachtoub, and Xiao Lei. [[Direct Link]](https://mhamilton-pitt.github.io/files/lb_final.pdf)
   * **Management Science** (*Forthcoming*) 
   * Accepted in *The 21st ACM Conference on Economics and Computation (**EC**)*, 2020.
