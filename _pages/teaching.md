@@ -14,10 +14,10 @@ author_profile: true
 
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
+| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
+| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
+| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
+| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
 | cell4   | cell5   | cell6   |
 |=============================|
 | Foot1   | Foot2   | Foot3   |
