@@ -15,10 +15,19 @@ author_profile: true
 | Lecture | Slides (.pptx) | Notebooks (.Rmd) |
 |:--------|:-------:|--------:|
 | Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx), plus [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
-| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
-| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
-| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
-| cell4   | cell5   | cell6   |
+| Lecture 2 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 2 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 2 Notebook.Rmd)   |
+| Lecture 3 - A Introduction to R Programming  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 3 - A Introduction to R Programming.pptx)    | [[Notebook]](Lecture 3 Notebook.Rmd)   |
+| Lecture 4 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 4 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 4 Notebook.Rmd)   |
+| Lecture 5 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 5 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 5 Notebook.Rmd)   |
+| Lecture 6 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 6 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 6 Notebook.Rmd)   |
+| Lecture 7 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 7 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 7 Notebook.Rmd)   |
+| Lecture 8 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 8 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 8 Notebook.Rmd)   |
+| Lecture 9 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 9 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 9 Notebook.Rmd)   |
+| Lecture 10 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 10 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 10 Notebook.Rmd)   |
+| Lecture 11 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 11 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 11 Notebook.Rmd)   |
+| Lecture 12 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 12 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 12 Notebook.Rmd)   |
+| Lecture 13 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 13 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 13 Notebook.Rmd)   |
+| Lecture 14 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 14 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 14 Notebook.Rmd)   |
 |=============================|
 | Foot1   | Foot2   | Foot3   |
 
