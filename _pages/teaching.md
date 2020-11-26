@@ -12,9 +12,9 @@ author_profile: true
 
 ### Data Analysis for Business (Fall '20)
 
-| Header1 | Header2 | Header3 |
+| Lecture | Slides (.pptx) | Notebooks (.Rmd) |
 |:--------|:-------:|--------:|
-| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
+| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx), plus [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
 | Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
 | Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
 | Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx) [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
