@@ -1,0 +1,173 @@
+---
+title: "Lecture 2 - Introduction to R I"
+output: html_notebook
+---
+
+In this course we will use R Notebooks which blend blocks of R code with regular lecture notes. Below is an example of an R code block to perform a simple operation!
+```{r}
+1+1
+# Use the hashtag (#) to write comments, R will ignore code preceeded by hashtags.
+
+# In this these notebooks I will use comments to describe what R is doing, please read through this notebook, executing the commands! e.g.
+
+print("Hello World") # This tells R to greet the world
+```
+
+# Today we will be describe some of the basic R functionalities.
+
+## Topics:
+0. How to install packages
+1. Interacting with R
+2. Variable Assignment
+3. Types
+4. Logical Operators 
+5. Vectors in R
+
+
+# 0. Install Packages
+To install and run a package in R we need to do two things: 
+
+1. Install the package by running
+> install.packages("package_name")
+
+2. Load the package into scope by running
+> library(package_name)
+
+## Example: Installing the swirl package 
+```{r}
+# install.packages("swirl") # Run this command to install swirl, if you have already you don't need to do it again.
+
+library(swirl) # This command tells R you want to use the package swirl.
+# From here follow swirls instructions, download the course R Programming and explore it's lessons!
+# You can begin interaction with swirl by typing
+# swirl() 
+# But more on that later!
+```
+
+# 1+2. Interacting with R and Variable Assignment
+In the following block we interact with R!
+
+```{r}
+# This is another block of R code
+# R can perform simple numeric operations like any calculator.
+
+1+1-3 # Addition and Subtraction
+5*6/3 # Mult and Division
+(1+3)^(2+1)/4 # Exponentiation, Standard Order of Operations
+#
+
+x <- 3.37 # The "<-" tells R to assign the 3.37 to a variable named x.
+x = 3.37 # You can also use "=" to tell R to assign the 3.37 to a variable named x.
+y = 4.63 # We can define mutliple variables, checl up the enviroment tab of your console to see the currently defined variables.
+this.is.my.var <- x+y
+this.is.my.var
+# this.is.my.var is a variable, not a function of x and y
+# Note we can use "."'s in naming our variables
+x <- 1
+this.is.my.var # Note it remains the same.
+# Some names should not be used since R already knows them
+pi
+pi = 3
+pi
+rm(pi) # rm() is function built into r that removes variables from memory
+pi # note pi is again 3.14...
+# Here are two other special terms that will be useful to know:
+exp(1) # R doesn't know e, exp(VAR) returns e^VAR
+NA # NA is a special character, we will return to it when we talk about conditionals.
+```
+
+# 3+4. Variables types + Logicals in R
+In the previous blcok we saw some operations *Numeric* Types (Doubles and Integerss). In the next block lets look at the more exotic types.
+
+```{r}
+## Logicals/Booleans
+x = TRUE
+y = FALSE
+
+# Boolean operators return TRUE/FALSE
+
+# Example 1: '==' is the boolean comparison operator, not assignment
+1 == 1
+
+# Example 2: 
+(1 == 1) == y # Try to guess what this line will output before running!
+
+# The other two important boolean comparisons are <=, >=, !=
+1 >= 3 # <=, >= make numeric comparisons. 
+# Fun fact! When TRUE or FALSE are numerically compared, TRUE = 1, FALSE = 0
+(1 >= 3) <= TRUE # Try to guess what this will output!
+
+## Characters
+x <- "Hello World!"
+y <- 'Hello World!'
+print(x) # The print function will display the variable inside to the console
+print(y)
+
+# Fun fact: In R "strings" are not functions of characters but their own object.
+# One useful function is substring(char, int start, int end)
+hello = substring(x, 1, 5)  # Here substring is isolating the first 5 letters
+world = substring(x, 6, 12) # Here substring is isolating the last six characters
+# We can then put the string back together with the paste function
+# Syntax: paste(char, char)
+z = paste(hello, world)
+```
+
+# 5. Vectors in R
+
+**Pro tip:** We can clear our workspace with the command: 
+
+> CTRL+L 
+
+down in the console. We can also clears the variables in the enviroment by typing
+
+> rm(list=ls()) 
+
+```{r}
+# Lets try it, type CTRL+L below in the console.
+rm(list=ls()) # Clears the variables in the enviroment
+
+# In this block of code we will introduce vectors (arrays)
+x_corr = 1
+y_corr = 2
+point = c(x_corr, y_corr) # c(OBJ, OBJ, ..., OBJ) concatenates variables or, more generally, other objects
+two_points = c(point, point) # Here we are combining two vectors
+
+# We query elements of a vector using brackets 
+## NOTE: Functions use paranthesis to take arguments, brackets take in indicies!
+
+# Example
+two_points[2]
+two_points[1] # note the first element starts at 1, not 0 like in some languages
+
+# We can see how long a vector is using the length(vector) function
+# Example
+length(two_points)
+
+# *Imporant*: Two numbers separated by a colon are all numbers in between 
+1:4 # is a vector of numbers 1,2,3,4
+x = 1:5
+# Combined with the brackets, we can use this to subsample the data
+x[2:4]
+
+# We can concatenate multiple types of variables into an array
+many_types = c(1,2,TRUE,"Cool")
+
+# Two really useful functions for creating vectors are seq(from = x, to = y, by = inc) and rep(elt, times = x)
+
+# Example of seq()
+seq(from = 0, to = 100, by = 10) # this creates a vector of numbers from 0 to 100 by tens
+
+# Example of rep()
+rep(1:5, times = 3) # repeats 1:5, 3 times 
+
+# Another really useful way to build vectors is draw them from a distribution!
+
+# Example of rnorm()
+random_sample = rnorm(20, 0, 5) # rnorm(n, mean, std) randomly draws n samples from a normal distribution with mean and std.
+
+# We can also analyze vectors using the mean, sd, and summary function
+mean(random_sample)
+sd(random_sample)
+summary(random_sample)
+```
+

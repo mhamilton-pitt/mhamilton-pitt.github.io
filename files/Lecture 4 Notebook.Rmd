@@ -1,0 +1,191 @@
+---
+title: "Lecture 4 - Introduction to R III"
+output: html_notebook
+---
+
+# Topics for today!
+
+We will demo the final two elements of programming
+1. If else statements (Ch. 3.2.1 in Book 1)
+2. for loops (Ch.3.2.2, 3.2.4.1 in Book 1)
+
+
+# 1. Topic: If else statements
+```{r}
+## Syntax: 
+#if(boolean){ 
+#  run code here 
+#}else{ 
+#    run code here
+#}
+```
+
+## Example 1: Write an if statement to check if variable is a certain size.
+```{r}
+x = rnorm(1,1,5) # x is one sample from a normal distribution with mean 1 and std 10
+
+if(x >= 1){
+  print("x is huge!")
+}else{
+  print("x is hopelessly tiny")
+}
+```
+
+If theres more than two cases we can use the else if to chain together commands!
+```{r}
+## Syntax: 
+#if(boolean){ 
+#   run code here 
+#}else if{ 
+#   run code here
+#}else{
+#   run code here
+#}
+```
+
+
+## Example 2: Write an if/else if/else statement to check the size of a variable.
+```{r}
+# Using x from the previous block!
+if(x > 2){
+  print("x is huge!")
+}else if(x < 0){
+  print("x is hopelessly tiny")
+}else{
+  print("x is boring")
+}
+
+# If statements are particular helpful in conjuction with loops and functions.
+```
+
+# 2. Topic: for loops
+General info: A for loop consists of a *loop varible* (usually we call it i,j, or k) and a *loop vector* (usually 1:N where N is some integer, often).
+
+```{r}
+## Syntax: 
+# for(loop_var in loop_vec){ 
+#   run code 
+#   }
+```
+
+## Example 1: Print the elements of a vector.
+```{r}
+data = c(1,1,2,3,5,7)
+for(i in data){
+  print(i)
+}
+# In the above loop "i" is the name of the loop variable, and it is pushed through the loop vector named "data" element by element. 
+## Loop Trace
+# At iteration 1: i = data[1] which is 1, then print(i) is run
+# At iteration 2: i = data[2] which is 1, then print(i) is run
+# At iteration 3: i = data[3] which is 2, then print(i) is run
+# ...
+# At iteration 6: i = data[6] which is 7, then print(i) is run and the loop terminates.
+```
+
+## Example 2: Remove thhe negative elements from an array. This example will combine if statements with for loops!
+```{r}
+data = rnorm(10, 0, 1) # 10 samples from a normal random variable
+clean_data = rep(0,10)
+for(i in 1:length(data)){
+  if(data[i] < 0){
+    clean_data[i] = NA
+  }else{
+    clean_data[i] = 1
+  }
+}
+print(clean_data)
+```
+
+## Some finer details of for loops
+ Recall the motivation for for-loops is to repeat pieces of code in a unified way. In this example we will write a piece of code as a for loop, and then equivalently as a number of code indepent code blocks.
+
+First lets recall some things about strings. Namly, recall from lecture 2 we learned the substring function. Its syntax was substring(char,start_ind, end_ind)
+
+```{r}
+strg = "hello"
+substring(strg,1,2) # Will return "he"
+# Lets learn another R function, nchar(). It will tell us how long a character is (i.e. how many letters are in the string)
+
+# Example: Using nchar()
+nchar(strg) # will return 5
+```
+
+Now suppose we want to count the number of "l"'s in a given string. For this task we can use for loop to examine all the letters, and everytime we find an "l" we will increment a counter.
+
+## Example 3: Counting "l"'s in a string.
+```{r}
+string_we_care_about = "lala" # here I'm making up a string, but it will be good because it has l's in it.
+
+N = nchar(string_we_care_about) # N is now the number of letters in the char string_we_care_about
+
+count = 0  # This is a initialization of a counter. Note it is define outside the for loop. If we defined it inside the for loop, it would be reset to 0 every time the loop ran this line.
+
+vec = 1:N # this a vector 1,2,3,..,N. We loop "over" this vector.
+
+for(i in vec){
+  if(substring(string_we_care_about,i,i) == "l"){
+    count = count + 1 # this line adds 1 to the variable count, then redefines count as the sum
+  }
+}
+print(count)
+
+# Two notes:
+## Note 1: the variable i defined in line 48 is the loop variable. It exists to keep track of how many times lines 49-51 are run. To ill
+```
+
+Finally to cement these concepts lets trace the execution of the previous example iteration by iteration.
+
+## Example 4: Tracing a for loop
+```{r}
+string_we_care_about = "lala"
+count = 0 # Intialization
+
+## Iteration 1 ##
+
+i = vec[1] # in the first iteration i is equal 1
+# Then the following if statement is checked.
+if(substring(string_we_care_about,i,i) == "l"){
+  # Note substring(string_we_care_about,1,1) = "l", so it will return true
+  count = count + 1 # this line adds 1 to the variable count, then redefines count as the sum
+}
+
+# At the the end of iteration 1, count = 1, i = 1
+
+## Iteration 2
+
+i = vec[2] # in the second iteration i is equal 2
+# Then the following if statement is checked.
+if(substring(string_we_care_about,i,i) == "l"){
+  # Note substring(string_we_care_about,2,2) = "a", so it will return false
+  count = count + 1 # This line thus does not get run
+}
+
+# At the the end of iteration 2, count = 1, i = 2
+
+## Iteration 3
+
+i = vec[3] # in the second iteration i is equal 3
+# Then the following if statement is checked.
+if(substring(string_we_care_about,i,i) == "l"){
+  # Note substring(string_we_care_about,3,3) = "l", so it will return true
+  count = count + 1 # This line gets run and count is set to 2
+}
+
+# At the the end of iteration 3, count = 2, i = 3
+
+## Iteration 4
+
+i = vec[4] # in the second iteration i is equal 4
+# Then the following if statement is checked.
+if(substring(string_we_care_about,i,i) == "l"){
+  # Note substring(string_we_care_about,4,4) = "a", so it will return flase
+  count = count + 1 # This line does not get run
+}
+
+# At the the end of iteration 4, count = 2, i = 4
+# This is the last element of the vector vec, thus the loop ends.
+
+print(count) # at the end of the last iteration, count was equal to 2. Thus 2 is printed.
+```
+

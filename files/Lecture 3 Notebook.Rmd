@@ -1,0 +1,144 @@
+---
+title: "Lecture 3 - Introduction to R II"
+output: html_notebook
+---
+
+# Topics for today!
+
+Today we will review the basic elements of data analysis. To start we will examine:
+
+1. Lists + Matrices
+2. Dataframes
+3. Writing basic functions
+
+## 1. Topic: Lists + Matrices
+```{r}
+## Lists
+# We can make lists the same way we make vectors
+test_list = list(1, "one", T)
+test_list[4:6] <- c(0, "zero", F) 
+
+# And access elements the same way
+test_list[c(2,5)] # returns the second and fifth elt.
+# Use lists when you're putting elts of many different types together.
+
+## Matricies
+# We can make arrays intro matrices using the matrix function
+# syntax: matrix(data_vector, num_rows, num_columns)
+# note the matrix is filled by the array column by column
+# Ex. 
+first_matrix = matrix(random_sample, 4, 5)
+
+# We can access elements of the matrix using brackets 
+# Syntax for accessing matrix elts is matrix[row_indices, col_indices]
+first_matrix[1,1] # gets the element in first row and first column
+first_matrix[1,] # gets the elements in the first row from ALL columns
+first_matrix[,1:2] # gets the elements in ALL rows and the first two columns
+```
+
+## 2. Topic: Dataframes
+```{r}
+# Dataframes are the workhorse of R, they are the most important way for storing data.
+?data.frame # putting '?' before a function will tell you about it!
+
+# Setting up the data
+names = c("Mark", "Mary", "Maddy", "Margret")
+grades = c(100, 97, 99, 98)
+cheater = c(T, F, F, F)
+
+# The data.frame(vectors) command builds a dataframe out of vectors
+gradebook = data.frame(names, grades, cheater) # Here we build the dataframe gradebook. Note the columns are named and inherit the names of the input vectors.
+summary(gradebook) # summary looks at each column and tells us about it
+gradebook[2,] # We can query dataframes like matricies
+
+# In dataframes columns have names corresponding to the vectors they were built from
+names(gradebook) # the names(dataframe) command returns all the column names
+# We can query dataframes by these names
+gradebook$names 
+gradebook[gradebook$names == "Mary",] # More querying examples
+trunc_gradebook = gradebook[c("names", "grades")] # When we request a two dimensional object from a dataframe, whats returned is itself a dataframe.
+
+# Many native functions in R are designed to be run on dataframes. We will spend a lot of time with dataframes when we start working with real data. For now it's enough to think of them as general matrices with named columns
+```
+
+## 3. Topic: Functions
+**General info**: A defined function consists of a a name, inputs and outputs.
+
+To write a function we need to use the following syntax
+
+**Syntax**: 
+
+> function_name = function(input_1, input_2){ 
+  run code here
+  return(variable)
+  }
+
+```{r}
+# The shell of function looks like this
+
+func_name = function(input){
+  # code
+  # code
+  # return(result)
+}
+```
+
+### Example 1: Square Function
+```{r}
+# Lets write a function that takes in a number and returns it's square
+func_square = function(N){
+  ret = N^2
+  return(ret)
+}
+```
+
+```{r}
+# Lets test our function
+func_square(7)
+7^2 # of course we could just use the carrot, this is a simple example
+```
+
+### Example 2: Compute the hypotenuse of a triangle given the other two
+```{r}
+# Lets write a function that takes in two sides of a right triangle and computes the hypotenuse.
+func_pythag = function(side_1, side_2){
+  hypot = side_1^2 + side_2^2
+  return(sqrt(hypot))
+}
+```
+
+```{r}
+# Lets test our function
+a = 3
+b = 7
+func_pythag(3,7)
+func_pythag(7,3)
+func_pythag("3", "7") # What will happen when we give it characters?
+```
+
+### Example 3: Number of Columns of a DataFrame
+```{r}
+# The nrows() counts the number of rows in a dataframe. Lets write a function that counts the number of columns
+count_columns = function(df){
+  first_row = df[1,]
+  num_cols = length(first_row)
+  return(num_cols)
+}
+```
+
+```{r}
+# Lets test our function
+data = mtcars # This is a dataframe native to R, type ?mtcars to learn more!
+count_columns(data)
+```
+
+# Summary of topics we've seen so far
+1. Interacting with R, R Notebooks
+2. Data Types
+3. Logical Operations
+4. Vectors
+5. Subsetting Vectors
+6. Lists + Matrices
+7. DataFrames
+8. Writing Functions
+

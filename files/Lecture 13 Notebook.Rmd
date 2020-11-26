@@ -1,0 +1,58 @@
+---
+title: "Lecture 13 - Model Selection"
+output: html_notebook
+---
+
+# Topics for today!
+1. Topic: Choosing the best model for multiple regression
+2. Topic: Multiple Regression from start to finish
+
+## Cleaning and Examining the Data
+```{r}
+# Loading the data
+setwd("~/Desktop/R Materials/mih140/Lecture 9(10) - Linear Regression I")
+cba = read.table("cba_admissions_1999.txt", sep = "\t", header = T, quote = "", allowEscapes = T)
+
+# Cleaning out the NA's
+cba = cba[!is.na(cba$SAT_math), ]
+cba$rank = cba$HS_rank/cba$HS_class_size # make new feature called "rank"
+cba = cba[!is.na(cba$rank),] # prune students w/out a rank
+
+# Examine the data for correlations
+library(gpairs)
+gpairs(cba[,c("SAT_math", "SAT_verbal", "rank")])
+```
+
+## Topic 1: Subset Selection for Multiple Regression
+```{r}
+# Lets start with a big model
+# Features we want to predict/explain: rank
+# Features we'll use to do that: SAT scores, gender, from PA?, scholarship status
+full_model = lm(data = cba, rank ~ SAT_verbal + SAT_math + Max_Test_Score + Female + from_PA + scholarship_yes_no + Max_Test_Score:scholarship_yes_no)
+summary(full_model) # R^2 = .2646
+# Size of the model? 7
+
+# install.packages("leaps")
+library(leaps)
+candidate_models = regsubsets(data = cba, rank ~ SAT_verbal + SAT_math + Max_Test_Score + Female + from_PA + scholarship_yes_no + Max_Test_Score:scholarship_yes_no)
+
+summary(candidate_models)
+plot(candidate_models)
+
+subset_model = lm(data = cba, rank ~ Female + from_PA + scholarship_yes_no:Max_Test_Score) # Note this model only uses SAT scores if the student recieved a scholarship, otherwise it just makes a mean prediction from demographic data. Can you think of any explanation why this might be?
+```
+
+Final model:
+$\text{rank} = .34 - .069*Female - .05*\text{from_PA} - .00014*\text{Max_Test_Score}*\text{scholarship_yes_no}$
+
+Seems like a sensible model. Intercept rank is .34, i.e. top third of class. Being from PA for which Pitt has strong draw sees an improvement in class rank by .05. Female applicants apparently also have stronger class performance improving the class rank by ~.07. Then, if a student won a scholarship, there is a linear improvement in class rank based on how high their best score was.
+
+
+## Topic 2: Multiple Regression from start to finish
+1. Identify a numeric response variable and the different variables in scope
+2. Make a scatterplot matrix between the numeric features and the response, note correlations
+3. Run the regression
+4. Note the F statistic and the R^2
+5. If any of the features are insignif. improve the model by finding the best subset using the package leaps.
+6. Check the four assumptions of your subset model in 5.
+7. Make predictions or draw conclusions about the data from your model.

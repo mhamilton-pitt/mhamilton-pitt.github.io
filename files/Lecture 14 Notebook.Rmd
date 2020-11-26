@@ -1,0 +1,114 @@
+---
+title: "Lecture 14 - Counter-Intuitive Results and Manipulations in Regression Models"
+output: html_notebook
+---
+
+# Topics for today!
+1. Topic: *(p-hacking I)* p values are often measures of sample size, not signifigance (in the normal sense of the word).
+2. Topic: *(p-hacking II)* If you search hard enough you can always find a "signifigant" model, even if one isn't really there!
+3. Topic: *(There's always a model that perfectly explains the data)* Given enough degrees of freedom, there's a polynomial regression model that perfectly fits the data. But just because you've fit the data doesn't mean you've learned a good model, these types of interpolations say very little about the sample and have limited to no merit on out of sample data.
+
+## Topic 1: p-values and sample size
+Suppose there's data where the response is only weakly corrolated with the independent variable e.g.
+
+$Y = .01*X + \text{Norm}(0,1)$
+
+Note in the above equation, Y is indeed a linear function of X plus noise but the magnitude of the noise will be larger than the impact from X as long as |X| < 5 or so.
+
+Let's imagine we have 10 samples from such a data generating process, will the linear regression model be found to be signifigant?
+```{r}
+# First lets make some fake small data
+N = 10
+x_10 = rnorm(N, 0, 1)
+y_10 = .01*x_10 + rnorm(N, 0, 1) # More noise than signal! Effect X on average is 10 times smaller than the noise
+
+test_10 = data.frame(x = x_10, y = y_10)
+model_10 = lm(data = test_10, y ~ x)
+summary(model_10) # No significance, ex: p-value: 0.7506
+```
+
+Above we saw that no, with only ten samples we could not pick up on the weak correlation between X and Y. What about if we had 100000 samples?
+```{r}
+# Same code as before but with many more samples
+N = 100000
+x_100000 = rnorm(N, 0, 1)
+y_100000 = .01*x_100000 + rnorm(N, 0, 1) # more noise than signal, 
+test_100000 = data.frame(x = x_100000, y = y_100000)
+model_100000 = lm(data = test_100000, y ~ x)
+summary(model_100000) # Extremely significant! ex: p-value: 8.579e-06
+```
+
+### Moral:
+In both cases data is generated from the same weak linear prob. model, $Y = .01x + \text{Norm}(0,1)$. When only ten samples are seen, even though the data is generated from a linear model, no signifigance is found. When there are 100,000 samples, the model is found to be extremely signifigant! But still not interesting, the correlation is extremely weak and for both models the signal is dominated by the noise.
+
+Be careful, in the real world *almost everything* has some sort of weak correlation! That does not mean regression is appropriate or interesting. Do not present signifigant but pointless models, they are pointless.
+
+### Solution
+This problem is easy to fix, always report both the p-val and the $R^2$.
+
+
+## Topic 2: p-hacking
+```{r}
+# Here we will find a signifigant model on purely random uncorrelated data by checking many many models.
+
+N = 15
+x_1 = rnorm(N, 0, 1)
+x_2 = rnorm(N, 0, 1)
+x_3 = rnorm(N, 0, 1)
+x_4 = rnorm(N, 0, 1)
+x_5 = rnorm(N, 0, 1)
+x_6 = rnorm(N, 0, 1)
+x_7 = rnorm(N, 0, 1)
+x_8 = rnorm(N, 0, 1)
+x_9 = rnorm(N, 0, 1)
+y = rnorm(N, 0, 1)
+
+test = data.frame(x_1 = x_1, x_2 = x_2, x_3 = x_3, x_4 = x_4, x_5 = x_5, x_6 = x_6, x_7 = x_7, x_8 = x_8, x_9 = x_9, y = y)
+
+full_model = lm(data = test, y ~ x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7 + x_8 + x_9) # terrible
+
+library(leaps)
+cand_model = regsubsets(data = test, y ~ x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7 + x_8 + x_9)
+plot(cand_model)
+# Best model found (changes every time!)
+best_model = lm(data = test, y ~ x_4 + x_6 + x_7)
+summary(best_model)
+# p-value: 0.0006073 !!!!!
+# Adjusted R-squared:  0.7207 !!!!!!
+```
+
+### Moral
+In the above example I made absolutely purely random data, and then searched over the randomness to find a model that is extremely signifigant! What happened here? Best subset looks at 2^9 models, if you look at enough models your bounded to find one that looks good by pure chance. In practice this often manifests as people swapping features in and out until they find something signifigant!
+
+### Solution
+You have to be principled in your experiment design and trust other analysts are being principled in their design as well.
+
+## Topic 3. Random data can be fit by a complicated enough model!
+```{r}
+# Lets make two totally random (but linear!) datasets
+x_1 = rnorm(5, 0, 1)
+x_2 = rnorm(5, 0, 1)
+training_set = data.frame(x = x_1, y = 2*x_1 + rnorm(5, 0, 1))
+testing_set = data.frame(x = x_2, y = 2*x_2 + rnorm(5, 0, 1))
+
+# We'll train our model on the first and use it on the second.
+bad_model = lm(data = training_set, y ~ x + I(x^2) + I(x^3) + I(x^4))
+summary(bad_model) # R^2 = 1, a perfect fit!
+
+# Lets plot it!
+new_dat = data.frame(x = seq(-3,3,.01))
+the_fit = predict(bad_model, new_dat)
+
+plot(data = training_set, y ~ x, col = "blue", xlim = c(-3,3), ylim = c(-15, 15), xlab = "", ylab = "")
+par(new = T)
+plot(data = testing_set, y ~ x, col = "red", xlim = c(-3,3), ylim = c(-15, 15), xlab = "", ylab = "")
+par(new = T)
+plot(new_dat$x, the_fit, xlim = c(-3,3), ylim = c(-15, 15), type = "l", xlab = "", ylab = "")
+
+# We see the polynomial is very unnatural and further does not explain the test data well at all!
+```
+
+### Moral
+Given random data, you can *always* find a (polynomial) model that explains all of the data points. This is can be tempting to do when you really want to present a model with a good R^2 but this is not real data analysis, this is just interpolation. Interpolation does not generalize well, and it has no merit for prediction!
+### Solution
+Higher order terms must be careful justified. After the midterm we'll see methods to mitigate generalization error (i.e. the model doesn't work on data it wasn't trained on).

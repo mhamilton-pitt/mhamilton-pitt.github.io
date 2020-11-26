@@ -1,0 +1,118 @@
+---
+title: "Lecture 12 - Multiple Linear Regression II"
+output: html_notebook
+---
+
+# Topics for today!
+1. Topic: Multiple Regression with catagorical variables
+2. Topic: Multiple Regression with quadratic terms
+    + Plotting polynomial regression
+3. Topic: Multiple Regression with mixed interaction terms
+    
+## Cleaning and Examining the Data
+```{r}
+# Loading the data
+setwd("~/Desktop/R Materials/mih140/Lecture 9(10) - Linear Regression I")
+cba = read.table("cba_admissions_1999.txt", sep = "\t", header = T, quote = "", allowEscapes = T)
+
+# Cleaning out the NA's
+cba = cba[!is.na(cba$SAT_math), ]
+cba$rank = cba$HS_rank/cba$HS_class_size # make new feature called "rank"
+cba = cba[!is.na(cba$rank),] # prune students w/out a rank
+
+# Examining the data for correlations
+library(gpairs)
+gpairs(cba[,c("SAT_math", "SAT_verbal", "rank")])
+```
+
+## Topic 1: Multiple Regression with catagorical variables
+```{r}
+# Demo: Let's try and predict class rank using SAT_verbal and also the racial catagorical variable.
+
+auto_model = lm(data = cba, rank ~ SAT_verbal + Race)
+unique(cba$Race) # Note American_Indian binary is not in model, it's the reference group chosen by R!
+
+# Make your own reference group
+library(dummies)
+race_tab = dummy(cba$Race) # Ignore warning message
+
+# Now I can add these columns to the dataframe
+cba_2 = data.frame(cba, race_tab) 
+explicit_model = lm(data = cba_2, rank ~ SAT_verbal + RaceAmerican_Indian + RaceAsian + Raceblack + RaceHispanic + Racewhite) # I choose to omit the binary for race not indicated, making that the reference group.
+
+summary(explicit_model) # Model is terrible
+
+# Regression Equation is:
+# rank = 5.330e-01 - 4.388e-04*SAT_verbal - 5.228e-02*RaceAmerican_Indian + ... -  5.126e-02*Racewhite
+
+small_model = lm(data = cba_2, rank ~ SAT_verbal + RaceAsian) # Reference group is now non-asian
+summary(small_model) # Model is still terrible
+```
+
+## Topic 2: Multiple Regression with quadratic terms
+```{r}
+# Example: Suppose you hypothesize a non-linear relationship between Max_Test_Score and rank among Asian applicants. 
+
+# You plot the relationship to confirm
+plot(data = cba_2[cba_2$RaceAsian == 1,], rank ~ Max_Test_Score, xlim = c(800, 1600), ylim = c(0, .6)) # Can imagine a sort of quadratic relationship here
+
+# You then train two models, one linear and one quadratic.
+
+lin_model = lm(data = cba_2[cba_2$RaceAsian == 1,], rank ~ Max_Test_Score)
+quad_model = lm(data = cba_2[cba_2$RaceAsian == 1,], rank ~ Max_Test_Score + I(Max_Test_Score^2))
+
+# Regression Equation of the quadratic model is:
+# rank = -1.812 + 3.464e-03 * Max_Test_Score - -1.484e-06 * Max_Test_Score^2
+
+# Then you check to see which model is better, and note the linear one is almost insignif. and the quad. is poor but signif.
+
+summary(lin_model) # R^2: 0.029,	Adj. R^2:  0.0013 
+summary(quad_model) # R^2: 0.134,	Adj. R^2:  0.083 
+
+# You conclude that in this data the relationship is better described by a quadratic however you are careful to note that this fit is quite poor and it's prediction for low scoring students seems very strange.
+```
+
+### Plotting polynomial regression
+```{r}
+new_dat = data.frame(Max_Test_Score = seq(800,1600,10))
+lin_fit = predict(lin_model, new_dat)
+quad_fit = predict(quad_model, new_dat)
+
+ # Make plot with both regression lines
+plot(data = cba_2[cba_2$RaceAsian == 1,], rank ~ Max_Test_Score, xlim = c(800, 1600), ylim = c(0, .6))
+par(new = T)
+plot(seq(800,1500,10), lin_fit, xlim = c(800, 1600), ylim = c(0, .6), type = "l", xlab = "", ylab = "", col = "red")
+par(new = T)
+plot(seq(800,1500,10), quad_fit, xlim = c(800, 1600), ylim = c(0, .6), type = "l", xlab = "", ylab = "", col = "blue")
+```
+
+## Topic 3: Multiple Regression with mixed interaction terms
+```{r}
+# Lets look at generating linear models with interaction terms!
+
+# Ex. 1: Predict SAT_math using SAT_verbal and Sex
+no_interaction_lm = lm(data = cba, SAT_math ~ SAT_verbal + Female)
+interaction_lm = lm(data = cba, SAT_math ~ SAT_verbal + Female + SAT_verbal:Female)
+summary(no_interaction_lm)
+summary(interaction_lm)
+
+# Regression Equation of the model with interaction terms is:
+# SAT_math = 362.3 + 0.41766 * SAT_verbal -49.54 * Female + 0.04 * SAT_verbal*Female
+
+# Ex. 2: Predict rank using SAT_math and Sex
+no_interaction_lm = lm(data = cba, rank ~ SAT_math + Female)
+interaction_lm = lm(data = cba, rank ~ SAT_math + Female + SAT_math:Female)
+summary(no_interaction_lm)
+summary(interaction_lm)
+
+# Ex. 3: Predict rank using SAT_verbal, SAT_math and Race
+no_interaction_lm = lm(data = cba, rank ~ SAT_math + Race)
+interaction_lm = lm(data = cba, rank ~ SAT_math + Race + SAT_math:Race)
+summary(no_interaction_lm)
+summary(interaction_lm)
+
+# In all three examples interaction terms are not signif. 
+# Moral: Make sure you have a good reason before including interaction terms in model
+```
+
+

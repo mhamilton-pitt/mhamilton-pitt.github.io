@@ -1,0 +1,164 @@
+---
+title: "Lecture 6 - More Plotting in R"
+output: html_notebook
+---
+
+# Topics for today!
+1. Review of the plotting methods from last lecture: hist(), boxplot().
+2. Topic: Making side by side plots
+3. Topic: Making layered plots
+4. Topic: Making a legend for your plots
+
+## Data
+```{r}
+# Lets reload our data file and isolate the regionEx data.
+
+setwd("/Users/mike/Desktop/R Materials/mih140/Lecture 5 - Introduction to Plotting in R/")  # This is my directory where I keep files.
+flight_data = read.table("RegionEx_Data.txt", header = T, sep = "\t", stringsAsFactors = F)
+flight_data_RegionEx = flight_data[flight_data$Airline == "RegionEx",]
+```
+
+# 1. Topic: Plotting Review in R, hist() and boxplot()
+```{r}
+# First isolate the column of arrival delays
+delays = flight_data_RegionEx$Arrival.delay.in.minutes
+
+# To make a histogram in R we use the hist() function
+hist(delays, main = "Delays in Minutes", xlab = "Arrival Delay (min)", ylab = "# of delays")
+
+# We can manually set the bins using the parameter breaks = c(b1, b2, .., bk)
+hist(delays, main = "Delays in Minutes", 
+     xlab = "Arrival Delay (min)", ylab = "# of delays",
+     breaks = seq(min(delays)-10,max(delays)+10,10))
+
+# Notice I create bins using seq(min(delays)-10,max(delays)+10,10), run this code in the console to see what it does. The -10 and +10 are to ensure that all the data in delays are contained in the bins. If any data point exists outside the defined bins R will throw an error.
+
+# Similar to a histogram we can make a box plot using the command boxplot()
+
+# Example 2.
+boxplot(delays, main = "Delays in Minutes", 
+     xlab = "Arrival Delay (min)", ylab = "# of delays")
+```
+
+# 2. Topic: Layered Plots and Histograms
+```{r}
+# Often we want to create many plots to better understand the data.
+# To illistate, lets isolate delays between MDA and RegionX, and plot histograms of their delays on top of and next to each other.
+
+# First to isolate the data.
+
+delays_RegionEx = flight_data$Arrival.delay.in.minutes[flight_data$Airline=="RegionEx"]
+delays_MDA = flight_data$Arrival.delay.in.minutes[flight_data$Airline=="MDA"]
+
+# Example: Overlaid Histograms
+hist(delays_RegionEx, col = "red", xlab = "Delay (mins)", main = "Histogram of Delays") # col is special parameter in hist that controls the color of the histogram.
+
+# Now we want to overlay a second histogram of the delays of MDA
+hist(delays_MDA, add = T, col = "blue") # note the "add = T" command inside of hist which is allowing multiple plots.
+
+# This plot could still use some work!
+# 1. The samples of different sizes, it'd better to compare their emperical distributions of delays
+# 2. These plots use different bins, we should should force them to be the same to make the comparison easier.
+
+# Example: Better layered histograms.
+
+hist(delays_RegionEx, col = "red", xlab = "Delay (mins)", main = "Histogram of Delays", freq = F,  breaks = seq(min(delays_RegionEx)-10,max(delays_RegionEx)+10,5)) # Freq = F makes the histogram into a pmf. Also notice we've added back in the breaks
+
+hist(delays_MDA, add = T, col = "blue", freq = F, breaks = seq(min(delays_RegionEx)-10,max(delays_RegionEx)+10,5)) # Lets do the same thing to histogram of mda's delays
+
+# We can also make side by side histograms using the par() function. It tells R how we'd like to layout our plots
+
+# Example 5. This code creates side by side histograms.
+
+par(mfrow = c(1,2)) # the syntax is: par(mfrow = c(num_of_rows, num_of_cols)).
+hist(delays_RegionEx, col = "red", xlab = "Delay (mins)", main = "Histogram of Delays", freq = F,  breaks = seq(min(delays_RegionEx)-10,max(delays_RegionEx)+10,5)) 
+hist(delays_MDA, col = "blue", xlab = "Delay (mins)", main = "Histogram of Delays", freq = F,  breaks = seq(min(delays_RegionEx)-10,max(delays_RegionEx)+10,5)) 
+
+```
+
+# 3. Topic: Layered and Side by Side Plots
+```{r}
+# Plotting continous varibles using plot()
+# Often we want to plot relationships between numerical data. In flight_data there's only two numeric data vectors.
+
+delays= flight_data$Arrival.delay.in.minutes
+num_of_passengers = flight_data$Number.of.passengers
+
+
+# Example: Using plot
+plot(delays, num_of_passengers)
+plot(delays ~ num_of_passengers) # this plots number of passengers on the x vs delay time on the y.
+
+# We can pretty it up using the functions from before.
+plot(delays ~ num_of_passengers, xlab = "Number of Passengers", ylab = "Delay (min)", main = "Delays vs Number of Passengers")
+
+# Important warning! R associates data points by their order in their respective column. For example suppose we want to plot the following points (1,1), (2,1), (2,2), (3,2).
+
+# Example:
+x_elts = c(1,2,2,3)
+y_elts = c(1,1,2,2)
+
+plot(y_elts ~ x_elts)
+
+# note r correctly matches the x and y coordinates. This is because it creates a point by using the ith element of both vectors.
+
+# Now lets plot delays vs. num_of_passenger, separated by origin airport.
+
+# Example: Layered Scatter Plots!
+delays_dfw = flight_data$Arrival.delay.in.minutes[flight_data$Origin.airport=="DFW"]
+delays_msy = flight_data$Arrival.delay.in.minutes[flight_data$Origin.airport=="MSY"]
+
+passengers_dfw = flight_data$Number.of.passengers[flight_data$Origin.airport=="DFW"]
+passengers_msy = flight_data$Number.of.passengers[flight_data$Origin.airport=="MSY"]
+
+plot(delays_dfw ~ passengers_dfw, xlab = "Number of Passengers", ylab = "Delay (min)", main = "Delays vs Number of Passengers", col = "red")
+par(new = T)
+# Alternate way:
+plot(delays_msy ~ passengers_msy, col = "blue")
+
+plot(delays_dfw ~ passengers_dfw, xlab = "Number of Passengers", ylab = "Delay (min)", main = "Delays vs Number of Passengers", col = "red")
+points(delays_msy ~ passengers_msy, col = "blue") 
+
+# Example: Similarly we can do side by side plots using par()
+
+par(mfrow = c(1,2))
+plot(delays_dfw ~ passengers_dfw, xlab = "Number of Passengers", ylab = "Delay (min)", main = "Delays vs Number of Passengers", col = "red", type = "l") # The type parameter can change the plot from scatter to line.
+plot(delays_msy ~ passengers_msy, xlab = "Number of Passengers", ylab = "Delay (min)", main = "Delays vs Number of Passengers", col = "blue", type = "l") # The type parameter can change the plot from scatter to line.
+```
+
+# 4. Topic: Adding a legend
+```{r}
+# Recall the plot from the previous block
+
+plot(delays_dfw ~ passengers_dfw, xlab = "Number of Passengers", ylab = "Delay (min)", main = "Delays vs Number of Passengers", col = "red")
+par(new = T)
+# Alternate way:
+plot(delays_msy ~ passengers_msy, col = "blue")
+
+# Add a legend with
+# Syntax: legend(60, 140, legend=c("dfw", "msy"), col = c("red", "blue"), cex = 1, pch = 1)
+legend(60, 140, legend=c("dfw", "msy"), col = c("red", "blue"), cex = 1, pch = 1) #
+# Play around with it!
+```
+
+```{r}
+# Second example of legend
+hist(delays_RegionEx, col = "red", xlab = "Delay (mins)", main = "Histogram of Delays", freq = F,  breaks = seq(min(delays_RegionEx)-10,max(delays_RegionEx)+10,5)) # Freq = F makes the histogram into a pmf. Also notice we've added back in the breaks
+
+hist(delays_MDA, add = T, col = "blue", freq = F, breaks = seq(min(delays_RegionEx)-10,max(delays_RegionEx)+10,5)) # Lets do the same thing to histogram of mda's delays
+
+legend(100, .03, legend=c("RegionEx", "MDA"), col = c("red", "blue"), cex = 1, pch = 0)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

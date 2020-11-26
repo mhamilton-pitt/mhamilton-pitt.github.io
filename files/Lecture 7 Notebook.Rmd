@@ -1,0 +1,86 @@
+---
+title: "Lecture 7 - Comparing Groups I"
+output: html_notebook
+---
+
+# Topics for today!
+1. Topic: table(), 
+2. Topic: chi.sq()
+3. Topic: binom.test()
+4. Topic: prop.test()
+
+## Data
+```{r}
+setwd("~/Desktop/R Materials/mih140/Lecture 5 - Introduction to Plotting in R")
+flight_data = read.table("RegionEx_Data.txt", header = T, sep = "\t") # load in flight_data
+```
+
+## 1. Topic: Tables
+```{r}
+# Example: Count how many observations are from MDA flights
+airlines = flight_data$Airline # vector of airlines
+num_mda_flights = sum(airlines == "MDA") # counts how many flights are MDA
+
+# Alternative way: Using table(). The table function takes in a vector of catagorical data i.e.:
+tab_airlines = table(airlines) 
+
+tab_airlines / sum(tab_airlines) # table of frequencies instead of count.
+
+# table() can take in multiple vectors of catagorical data
+tab_airline_airport = table(flight_data$Airline, flight_data$Origin.airport)
+
+# table() also understands columns of a dataframe
+
+table(flight_data[,c("Airline", "Origin.airport")])
+```
+
+## Tables cont.
+```{r}
+# QU: Lets see if flights are uniformly distributed through out the week.
+days = table(flight_data$Day.of.Week)
+chisq.test(days)
+
+days_airlines = table(flight_data$Day.of.Week, flight_data$Airline)
+res = chisq.test(flight_data$Day.of.Week, flight_data$Airline)
+```
+
+## 2. Topic: Chi-squared test
+```{r}
+#  QU: Is day.of.week and whether or not the flight is delayed independent?
+tab = table(flight_data$Day.of.Week, flight_data$Delay.indicator)
+chisq.test(tab)
+```
+
+## Chi-squared test cont.
+```{r}
+# QU: Is airline and whether or not the flight is delayed independent?
+tab = table(flight_data$Airline, flight_data$Delay.indicator)
+results = chisq.test(tab)
+results$observed
+results$expected
+```
+
+# 3. Topic: binom.test(). 
+```{r}
+# Syntax for binom.test(): 
+##   binom.test(successes, N, p, alternative = , conf.level )
+
+# QU: Is the proportion of delays statistically signifigantly different than .2?
+delays = table(flight_data$Delay.indicator)
+binom.test(delays) # default with p = .5
+binom.test(delays[2],sum(delays),p=.2, alternative = "two.sided") # Correct test
+```
+
+# 4. Topic: prop.test(). 
+```{r}
+# Syntax is the same as binom.
+delays = table(flight_data$Airline, flight_data$Delay.indicator)
+prop.test(delays)
+delays = table(flight_data$Delay.indicator)
+prop.test(delays) # default with p = .5
+res = prop.test(delays, alternative = "two.sided", conf.level = .95) # Correct test
+```
+
+
+
+

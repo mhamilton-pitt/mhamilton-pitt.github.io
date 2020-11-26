@@ -1,0 +1,118 @@
+---
+title: "Lecture 11 - Multiple Linear Regression I"
+output: html_notebook
+---
+# Topics for today!
+1. Topic: Multiple Linear Regression vs Simple Linear Regression
+2. Topic: Multiple Regression from Start to Finish
+    + Look for linear correlation in the data using cor(), gpairs()
+    + We'll build a multiple linear regression model and examine the coeffs
+    + We'll check the assumptions of prob. linear model.
+    + We'll do prediction using the model
+
+## Data
+```{r}
+# Code for demo
+setwd("~/Desktop/R Materials/mih140/Lecture 11(12) - Multiple Regression")
+mlb = read.table("mlb.txt", sep = "\t", header = T)
+```
+
+## 1. Topic: Multiple Linear Regression vs Simple Linear Regression
+
+**Review**: Want to learn a (linear) relationship between some Y and X.
+
+**Simple Lin. Reg**:
+$Y = b_0 + b_1 * X$ <- Linear model learned from data by OLS
+$Y = B_0 + B_1 * X + \epsilon$ <- Assumed Prob. Linear Model, if this is whats generating the data when we can do inference on the learned model.
+
+
+What about a Y and multiple X's?
+
+
+**Mult. Lin. Reg**
+$Y = b_0 + b_1 * X_1 +  b_1 * X_2 + ... +  b_k * X_k$ <- Linear model learned from data by OLS
+$Y = B_0 + B_1 * X_1 +  B_1 * X_2 + ... +  B_k * X_k + \epsilon$ <- Assumed Prob. Linear Model, if this is whats generating the data when we can do inference on the learned model.
+
+
+## 2. Topic: Multiple Regression from Start to Finish
+
+Let's consider the following question: How well can we predict AvgRuns scored by a team from information about the teams offense?
+
+Steps we'll take
+1. Look for linear correlation in the data using cor(), gpairs()
+2. We'll build a multiple linear regression model and examine the coeffs
+3. We'll check the assumptions of prob. linear model.
+4. We'll do prediction using the model
+
+### Step 1: Looking for Linear Correlation
+```{r}
+# Motivation: Lets look inside the data for interesting features that could be useful in predicting/explaining average runs.
+# Lets test using these: "OBP", "SLG", "BB", "H", "HR"
+
+# To look for correlations in the data lets use the cor() function
+cor(mlb[,c("OBP", "SLG", "SO", "H", "HR", "AvgRuns")])
+
+# Seems like everything positively correlates with AvgRuns, except SO which negatively correlates. We can examine individual correlations more closely using cor.test():
+cor.test(mlb$SO, mlb$AvgRuns) # Not sign.
+cor.test(mlb$HR, mlb$AvgRuns) # Sign.
+cor.test(mlb$OBP, mlb$AvgRuns) # Very sign.
+
+# Can also closely examine relationship with gpairs 
+# install.packages("gpairs) <- make sure package is installed
+library(gpairs)
+gpairs(mlb[,c("OBP", "SLG", "SO", "H", "HR", "AvgRuns")])
+
+```
+
+### Step 2: Building Mult. Lin. Reg. Models
+```{r}
+# Lets train a model using all of the data
+model_full = lm(AvgRuns ~ OBP + SLG + SO + H + HR, data = mlb)
+
+# We can examine the models coeff.
+model_full$coefficients
+# Model is:
+# AvgRuns = -5.859 + 23.54*OBP - 1*SLG + .0000167*SO + .0016017*H + 00501*HR
+
+# Examine the model more closely
+summary(model)
+# Seems SLG and SO are not statistically sign.
+
+# (d)
+confint.lm(model, level = .99)
+
+m1 = lm(AvgRuns ~ OBP + SLG + SO + H + HR, data = mlb)
+m2 = lm(AvgRuns ~ OBP + H + HR, data = mlb)
+m3 = lm(AvgRuns ~ OBP + SO + H + HR, data = mlb)
+summary(m1)
+summary(m2)
+summary(m3)
+```
+
+### Step 3: Checking assumptions of our model
+```{r}
+library(gvlma)
+gvlma(m2) # Not all satisified
+
+par(mfrow = c(2,2))
+plot(m2)
+par(mfrow = c(1,1))
+
+library(lmtest)
+dwtest(m2) # p-value = .8586, thus independence is a valid assumption
+```
+
+### Step 4: Using our model for prediction
+```{r}
+# Finally lets do prediction using the model m2
+mlb_train = mlb[mlb$Tm != "PIT",] # All teams not PIT
+test_df = mlb[mlb$Tm == "PIT",] # We will test on PIT
+
+m2_no_PIT = lm(AvgRuns ~ OBP + H + HR, data = mlb_train) # first retrain the model without PIT
+
+predict(m2_no_PIT, test_df, interval = "confidence")
+predict(m2_no_PIT, test_df, interval = "prediction")
+test_df$AvgRuns # 4.12, pretty good estimate!
+```
+
+

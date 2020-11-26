@@ -1,0 +1,119 @@
+---
+title: "Lecture 5 - Plotting in R"
+output: html_notebook
+---
+
+# Topics for Today!
+1. Topic: Loading in data
+2. Topic: Managing data in dataframes
+3. Topic: Basic plotting in R - hist() and boxplot()
+4. Topic: Basic plotting in R- A first look at plot()
+
+## Recommended further reading
+1. Reading and writing data in R (Ch. 3.1 in Book 1, Ch. 2.6 in Book 2)
+2. Managing data from dataframes (Ch. 3.2.4.5+3.2.4.6 in Book 1)
+3. Plotting catagorical data with hist(), boxplot() (4.4.2-4 in Book 1, 3.4.1-2 in Book 2)
+4. Plotting continuous data with plot() (4.4.1 in Book 1, 4.2.1 in Book 2)
+
+# 1. Topic: Loading Data
+```{r}
+getwd() # this is the directory in which you can access files
+setwd("/Users/mike/Desktop/R Materials/mih140/Lecture 5 - Introduction to Plotting in R/") # this is my directory where I save things.
+
+# Set your directory to whereever you downloaded the RegionEx_Data.txt
+# To load the data use the read.table() command
+?read.table()
+flight_data = read.table("RegionEx_Data.txt", sep = "\t")
+flight_data = read.table("RegionEx_Data.txt", header = T, sep = "\t")
+# Notice we used the sep = "\t" since the file is a tab separated
+# If the file is a .csv, use sep = "," or read.csv(filename)
+
+# To view the table try the View(df) command
+View(flight_data)
+
+# Note there are two airlines in the dataset
+unique(flight_data$Airline) # this is the unique() function, it returns the unique elements in a vector
+```
+
+# 2. Topic: Managing data from dataframes.
+```{r}
+# Using names() we can get all column names of the flightdata dataset
+names(flight_data)
+
+# Using class() we can get the type of the data
+class(flight_data$Arrival.delay.in.minutes) #integer
+class(flight_data$Airline)                  #factor
+
+# Note the last catagory is a "factor". Factors a special data types for catagorical variables. We can convert other character vectors to factors using the as.factor() method.
+
+flight_data$Delay.indicator = as.factor(flight_data$Delay.indicator)
+flight_data$Day.of.Week = as.factor(flight_data$Day.of.Week)
+
+# Lets isolate all flight data for the two airlines
+
+flight_data_MDA = flight_data[flight_data$Airline == "MDA",]
+flight_data_RegionEx = flight_data[flight_data$Airline == "RegionEx",]
+
+
+# We can use the table() function to examine 1 dimension data.
+table(flight_data_RegionEx$Delay.indicator)
+table(flight_data_RegionEx$Delay.indicator)/nrow(flight_data_RegionEx)
+```
+
+# 3. Topic: Basic plotting in R - hist() and boxplot()
+```{r}
+# Lets reload our data file from before, and isolate the regionEx data.
+flight_data = read.table("RegionEx_Data.txt", header = T, sep = "\t", stringsAsFactors = F)
+flight_data_RegionEx = flight_data[flight_data$Airline == "RegionEx",]
+
+# To explore the data lets try making a histogram of the delays
+delays= flight_data_RegionEx$Arrival.delay.in.minutes
+
+# To make a histogram in R we use the hist() function
+# Example. 
+hist(delays)
+
+# This makes a very basic histogram. We customize using many of R features.
+# We can change the title using the main = "" parameter
+# Ex. 
+hist(delays, main = "Delays in Minutes")
+
+# Similarly we can change the x and y labels using parameters xlab = "" and ylab = ""
+# Ex. 
+hist(delays, main = "Delays in Minutes", xlab = "Arrival Delay (min)", ylab = "# of delays")
+
+# Further we can manually set the bins using the parameter breaks = c(b1, b2, .., bk)
+# Ex.
+hist(delays, main = "Delays in Minutes", 
+     xlab = "Arrival Delay (min)", ylab = "# of delays",
+     breaks = seq(min(delays)-10,max(delays)+10,10))
+
+# Notice I create bins using seq(min(delays)-10,max(delays)+10,10), run this code to see what it does. Why do I have the -10, +10 in the code?
+
+# Similar to a histogram we can make a box plot using the command boxplot()
+
+# Ex.
+boxplot(delays)
+
+# boxplot can be customized just like hist()
+
+# Ex. 
+boxplot(delays, main = "Delays in Minutes", 
+     xlab = "Arrival Delay (min)", ylab = "# of delays")
+```
+
+# 4. Topic: Basic plotting in R - plot()
+```{r}
+# Plotting continous varibles using plot()
+delays= flight_data_RegionEx$Arrival.delay.in.minutes
+num_of_passengers = flight_data_RegionEx$Number.of.passengers
+
+plot(delays ~ num_of_passengers) # this plots number of pass on the x vs delays on the y
+
+# We can title it similar to before
+plot(delays ~ num_of_passengers, main = "Delay vs. Passenger Load", 
+     xlab = "Number of Passengers", ylab = "Delay (min)")
+
+# More on this next time!
+```
+

@@ -1,0 +1,103 @@
+---
+title: "Lecture 10 - Simple Linear Regression II"
+output: html_notebook
+---
+
+# Topics for today!
+1. Topic: More on Checking the Assumptions
+2. Topic: Confidence intervals for Coefficents
+3. Topic: Prediction and Confidence Intervals for Response
+
+## Data
+```{r}
+setwd("~/Desktop/R Materials/mih140/Lecture 10 - Linear Regression I")
+house = read.table("house.txt", sep = "\t", header = T)
+```
+
+## 1. Topic - More on Checking the Assumptions
+
+# Questions to ask about each assumption:
+1. *Linearity* - Do you see trends in your residual vs fitted graph? When linearity is satisfied, your point should look like a symmetric cloud with the 0 line splitting it in half. Good mental check - do the points above the horizon look like a reflextion (more or less) of the points below?
+2. *Constant Variance* - This is about distance from the center line, does it appear like for every value of the x in the residuals vs fitted plot, points are more or less equally spread from the 0. The most commonn way this fails is as the fitted value (i.e. x axis) increases, points get more spread out so the data looks sort of like a cone.
+3. *Normality* - Not only should you have symmetric, equal variance errors but those errors should be Normally distributed. You check this from a qqplot, if the qqplot is a diagonal Normality holds. If the points deviate from a diagonal, e.g. look like an S shape, normality is not satisfied.
+4. *Independence* - This is independence between the X and the noise term epsilon. We check this with a dwtest(), where the null is that indep. holds and the alternative is that it doesn't.
+
+```{r}
+# Lets continue with our example from last time! Recall we were examining the relationship between price and sq footage.
+
+reg_model = lm(data = house, price ~ sqft_living) # linear regression
+summary(reg_model) # Adjusted R^2 = .6382, good explanation
+
+# Check assumptions by examining
+par(mfrow = c(2,2))
+plot(reg_model)
+# 1. Linearity - Looked at residuals
+# 2. Normality - Looked qqplot of residuals
+# 3. Constant Variance - Looked at residuals
+# 4. Independence (of error term and response) - Let's do this now!
+
+# Need to install package install.packages("lmtest")
+library(lmtest) # loads in package after installation
+dwtest(reg_model) # pval = .3569, not strong enough to reject the null of indep.
+
+# Alternative Method
+# install.packages("gvlma")
+library(gvlma)
+gvlma(reg_model)
+plot(gvlma(reg_model))
+```
+
+### Reading the output of gvlma
+                      Value   p-value                   Decision
+Global Stat        3066.164 0.000e+00 Assumptions NOT satisfied!
+Skewness            448.590 0.000e+00 Assumptions NOT satisfied!
+Kurtosis           2575.988 0.000e+00 Assumptions NOT satisfied!
+Link Function        39.115 3.996e-10 Assumptions NOT satisfied!
+Heteroscedasticity    2.472 1.159e-01    Assumptions acceptable.
+
+1. Global Stat  - This is roughly linearity.
+2. Kurtosis+Skewness - These are testing normality of errors.
+3. Link Function - This is testing for a continuous relationship between the variables, i.e. is model correctly specified
+4. Heteroscedasticity - This is constant variance.
+
+GVLMA gives a more sophifisticated take on assumption testing then we'll use in this class. The interested reader should refer to:
+Pena, E. A., & Slate, E. H. (2006). Global validation of linear model assumptions. Journal of the American Statistical Association, 101(473), 341-354. https://doi.org/10.1198/016214505000000637
+
+### Right way to use the gvlma package
+1. Run the gvlma function on your model first, if all the assumptions pass you're done!
+2. If some assumptions fail, fall back to checking the residuals and see how violated these conditions are.
+
+## 2. Topic: Confidence intervals for Coefficents
+```{r}
+# Examining the regression
+reg_model$coefficients # gets the coeff. of the model
+confint.lm(reg_model, level = .95) # change confidence level with level param.
+#                  2.5 %     97.5 %
+# (Intercept) 16109.5657 58288.5405
+# sqft_living   144.1529   162.8496
+```
+
+## 3. Topic: Prediction and Confidence Intervals for Response
+
+Suppose our assumptions are all satisfied and now we'd like to predict the cost of some new observations (i.e. homes) using our model. We saw in lecture that there are two main types of prediction and two main sources of prediction error.
+
+### Two main types of predictions!
+1. Predicting the *mean response* (E[y|x]) for a given set of feature values averages out the second form of error, only suffering from the first (model misspecification). 
+2. Predicting the *actual response* (y|x) suffers from both sources of error. Thus the prediction interval will be wider than the confidence interval.
+
+### Two main sources of error in our predictions!
+1. **Error in the model specification**. The coefficients are themselves functions of the (random) data and thus subject to error related to the sample drawn.
+2. **Error from the normal noise**. Recall our assumed probabilistic linear model assumes the response variable is equal to a linear function of the features plus some Normal random noise. The error from this noise is inherit in even a perfectly fit model.
+
+# In R
+```{r}
+# Suppose we want to predict the price of a home thats 1000, 2000, 20,000 ft
+test_data = house[1:3,] # copies some rows
+test_data$sqft_living = c(1000, 2000, 20000) # changes sqft to what we want to predict
+
+predict(reg_model, test_data, interval = "confidence") # 95% interval for mean response E[y|x]
+predict(reg_model, test_data, interval = "prediction") # 95% interval for predicted obs,  y|x
+```
+
+
+

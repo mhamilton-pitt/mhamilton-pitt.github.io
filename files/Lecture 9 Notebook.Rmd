@@ -1,0 +1,110 @@
+---
+title: "Lecture 9 - Simple Linear Regression"
+output: html_notebook
+---
+
+# Topics for today!
+1. Topic: Checking correlation
+2. Topic: Simple Linear Regression Basics
+3. Topic: Checking the assumptions of linear regression
+4. Topic: Plotting simple linear regression
+5. Topic: Linear Regression Example in R
+
+
+## Data
+```{r}
+setwd("~/Desktop/R Materials/mih140/Lecture 9 - Linear Regression I")
+house = read.table("house.txt", sep = "\t", header = T)
+
+# quick pruning of outliers
+house = subset(house, price >= (mean(price) - 3*sd(price)) & price <= (mean(price) + 3*sd(price))) 
+```
+
+## 1. Topic: Checking correlation
+```{r}
+# Test if correlation between price and footage is nonzero.
+cor.test(house$price, house$sqft_living)
+cor(house[,c("price", "sqft_living")]) # Compute the correlation itself
+```
+
+### Note correlation being zero does not imply no relationship, just no linear relationship
+```{r}
+x = cos(seq(0, 2*pi, .1))
+y = sin(seq(0, 2*pi, .1))
+plot(x,y)
+cor(x,y) # Basically 0, although clearly related!
+```
+
+
+# 2. Topic: Simple Linear Regression Basics
+```{r}
+# Lets use lin reg to see the relationship between price and living space
+
+reg_model = lm(data = house, price ~ sqft_living) # Simple linear regression
+reg_model_2 = lm(data = house, price ~ 0 + sqft_living) # Simple linear regression through the origin
+
+# Examining the regression
+reg_model$coefficients # gets the coeff. of the model
+reg_model$fitted.values # what the model predicts for each point
+avg_error = mean(abs(reg_model$fitted.values - house$price)) # same as mean(abs(reg_model$residuals))
+summary(reg_model) # Can read off if coeff. are stat. sign. diff. from 0
+```
+
+## 3. Topic: Checking the assumptions of linear regression
+```{r}
+# The assumptions are:
+## 1. Linearity - Look at residuals
+## 2. Normality - qqplot of residuals
+## 3. Independence (of error term and response) - Next time
+## 4. Constant Variance - Look at residuals
+
+# Check assumptions by examining
+par(mfrow = c(2,2))
+plot(reg_model)
+
+# If the assumptions are satisfied, we can do inference using our model. More next time!
+```
+
+## 4. Topic: Plotting simple linear regression
+```{r}
+# Plotting code from before
+price_lim = c(min(house$price), max(house$price))
+sqrtft_lim = c(min(house$sqft_living), max(house$sqft_living))
+plot(data = house[house$bedrooms <= 3,], price ~ sqft_living, col = "red", xlim = sqrtft_lim, ylim = price_lim)
+par(new = T) # tells R to hold prev plot
+plot(data = house[house$bedrooms > 3,], price ~ sqft_living, col = "blue", xlim = sqrtft_lim, ylim = price_lim)
+
+# Adding lines to plots
+abline(reg_model, col = "black", lwd = 2) # Adds a regression line
+abline(0,200, lwd = 2, col = "green") # Adds a second regression line
+abline(reg_model_2, lwd = 2, col = "black") # Adds a third regression line
+```
+
+## Topic: Linear Regression Example in R
+```{r}
+setwd("~/Desktop/R Materials/mih140/Lecture 10 - Linear Regression I")
+cba = read.table("cba_admissions_1999.txt", sep = "\t", header = T, quote = "", allowEscapes = T)
+cba = cba[!is.na(cba$SAT_math),] # remove na rows
+```
+
+```{r}
+# In this example we examine the relationship betwee sat_math score and sat_verbal score in the cba dataset.
+
+# 1: Fit a simple regression between SAT_verbal and SAT_math
+res = lm(cba$SAT_verbal ~ cba$SAT_math)
+
+# 2: Write out the regression equation
+summary(res) # observe model Y = 0.46625 X + 290.08827
+
+# 3: Plot the regression line against the scatter plot, be sure to appropriately label your plot!
+
+plot(cba$SAT_math, cba$SAT_verbal, main = "Linear Relationship Between SAT Math and SAT Verbal", xlab = "SAT Math Score", ylab = "SAT Verbal Score")
+abline(res, col = "red")
+
+# 4: Plot the residuals, qqplot, comment on trends you see in the data and check assumptions
+par(mfrow = c(2,2))
+plot(res)
+# Residuals seem relatively consistent, the equal variance assumption and independence between our independent variable and the normal noise assumption appears reasonable.
+# QQ Plot is straight and diagonal supporting our normality assumption
+```
+

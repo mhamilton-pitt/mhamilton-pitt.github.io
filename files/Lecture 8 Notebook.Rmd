@@ -1,0 +1,63 @@
+---
+title: "Lecture 8 - Comparing Groups II"
+output: html_notebook
+---
+
+# Topics for today!
+1. Topic: One sample t.test()
+2. Topic: Two sample t.test()
+3. Topic: Paired two sample t.test()
+4. Topic: Checking assumptions of t.test()
+
+## Data
+```{r}
+setwd("~/Desktop/R Materials/mih140/Assignments/'19 Assignments")
+cba = read.table("cba_admissions_1999.txt", sep = "\t", header = T, quote = "", allowEscapes = T)
+```
+
+## 1. Topic: t.test()
+```{r}
+# QU: Do scholarship students score above 600 on average in math?
+cba_schol = cba[cba$scholarship_yes_no == 1, ]
+cba_schol_math = cba_schol[!is.na(cba_schol$SAT_math),]
+t.test(cba_schol_math$SAT_math, mu = 600, alternative = "greater")
+```
+
+## 2. Topic: Two sample t.test()
+```{r}
+# QU: Do scholarship students and non-scholarship students have statistically signifigantly different average sat_math scores?
+cba = cba[!is.na(cba$SAT_math),]
+cba_schol = cba[cba$scholarship_yes_no == 1, ]
+cba_noschol = cba[cba$scholarship_yes_no == 0, ]
+
+t.test(cba_schol$SAT_math, cba_noschol$SAT_math, alternative = "two.sided")
+# Yes, statistically sign. different
+```
+
+## 3. Topic: Paired two sample t.test
+```{r}
+# QU: Do scholarship students have statistically signifigantly different SAT_math scores vs SAT_verbal scores?
+cba = cba[!is.na(cba$SAT_math),]
+cba = cba[!is.na(cba$SAT_verbal),]
+cba_schol = cba[cba$scholarship_yes_no == 1, ]
+t.test(cba_schol$SAT_math, cba_schol$SAT_verbal, alternative = "two.sided", paired = T)
+
+# Compare with paired = F, which has higher p_val? Why?
+```
+
+# 4. Topic: Checking Assumptions of t.tests()
+```{r}
+# Assumption 1: Data (in each sample!) is drawn from a normal distribution.
+# Check by making a qqplot, observing the qqplot is straight and does not have bad outliers! Outliers are worse than curves
+
+# Example:
+par(mfrow = c(1,2))
+qqnorm(cba_schol$SAT_math)
+qqnorm(cba_schol$SAT_verbal)
+par(mfrow = c(1,1))
+
+# Assumption 2 (for two sample data): Observations in each group are independent of one another! This comes from knowledge about your data, to check this just state simply whether it is or isn't.
+```
+
+
+
