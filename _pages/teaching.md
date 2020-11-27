@@ -22,7 +22,7 @@ In the table below I've collected all of my Powerpoint Slides, associated R Note
 
 | Lecture | Slides (.pptx) | Notebooks (.Rmd) |
 |:--------|:-------:|--------:|
-| Lecture 1 - Introduction to Business Analytics   | [[Slides(a)]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx), plus [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
+| Lecture 1 - Introduction to Business Analytics   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx), [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
 | Lecture 2 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 2 - A First Introduction to R.pptx)    | [[Notebook]](Lecture 2 Notebook.Rmd)   |
 | Lecture 3 - A Introduction to R Programming  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 3 - A Introduction to R Programming.pptx)    | [[Notebook]](Lecture 3 Notebook.Rmd)   |
 | Lecture 4 - A First Introduction to R II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 4 - A Introduction to R Programming II.pptx)    | [[Notebook]](Lecture 4 Notebook.Rmd)   |
