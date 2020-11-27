@@ -35,7 +35,7 @@ In the table below I've collected all of my Powerpoint Slides, associated R Note
 | Lecture 12 - Multiple Regression II   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 12 - Multiple Regression II.pptx)    | [[Notebook]](Lecture 12 Notebook.Rmd)   |
 | Lecture 13 - Model Selection I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 13 - Model Selection I.pptx)    | [[Notebook]](Lecture 13 Notebook.Rmd)   |
 | Lecture 14 - Model Selection Pitfalls   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 14 - Model Selection Pitfalls.pptx)    | [[Notebook]](Lecture 14 Notebook.Rmd)   |
-|=============================|
+|:--------|:-------:|--------:|
 
 ### Data
 
