@@ -45,6 +45,6 @@ Lecture 17-25 are *coming soon*
 
 * Below I list the datasets referenced in the course, in order of appearance:
   * [RegionEx_Data.txt](https://mhamilton-pitt.github.io/files/RegionEx_Data.txt), [cba_admissions_1999.txt](https://mhamilton-pitt.github.io/files/cba_admissions_1999.txt), [warming_cities_1900.csv](https://mhamilton-pitt.github.io/files/mlb.txt)
-  * [HR_data.txt](https://mhamilton-pitt.github.io/files/HR_data.txt)
-  * [house.txt](https://mhamilton-pitt.github.io/files/house.txt), [Midterm2016.txt](https://mhamilton-pitt.github.io/files/Midterm2016.txt), [hotel_reviews.txt](https://mhamilton-pitt.github.io/files/hotel_reviews.txt) 
+  * [HR_data.txt](https://mhamilton-pitt.github.io/files/HR_data.txt), [house.txt](https://mhamilton-pitt.github.io/files/house.txt), [Midterm2016.txt](https://mhamilton-pitt.github.io/files/Midterm2016.txt) 
+  * [hotel_reviews.txt](https://mhamilton-pitt.github.io/files/hotel_reviews.txt) 
 
