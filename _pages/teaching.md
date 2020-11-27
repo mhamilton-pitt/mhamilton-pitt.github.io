@@ -7,8 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
+
 * [BUSQOM 1080 - DATA ANALYSIS FOR BUSINESS](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=726332)
   * Fall 2019, Fall 2020
+  
+## BUSQOM 1080 Materials
+
+My data analysis course serves as the first introduction to R, and data analysis using R, for upper level business undergraduates at the University of Pittsburgh. It covers a variety of basic statistical methods and their implementations in R. For a complete list of topics please my [Fall '20 Syllabus](https://mhamilton-pitt.github.io/files/Syllabus.pdf). 
+
+In the table below I've collected all of my Powerpoint Slides, associated R Notebooks, and Datasets for my course (second half coming soon!). I hope that they will serve as an instructive reference, please don't hesistate to email me if you have comments, questions, or corrections.
 
 ### Data Analysis for Business (Fall '20)
 
