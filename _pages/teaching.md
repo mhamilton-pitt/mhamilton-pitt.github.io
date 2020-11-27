@@ -15,7 +15,7 @@ author_profile: true
 
 BUSQOM 1080 serves as the first introduction to (base) R, and data analysis using R, for upper level business undergraduates at the University of Pittsburgh. It covers a variety of basic statistical methods and their implementations. For a complete list of topics please see my [Fall '20 Syllabus](https://mhamilton-pitt.github.io/files/Syllabus.pdf). 
 
-The course is required for the [Certificate in Business Analytics](https://cba.pitt.edu/academics/certificates/certificate-program-in-business-analytics/) and a necessary prerequiste for [BUSSCM 1760 - DATA MINING](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=720282) which is taught in the Spring.
+The course is required for the [Certificate in Business Analytics](https://cba.pitt.edu/academics/certificates/certificate-program-in-business-analytics/) and is a necessary prerequiste for [BUSSCM 1760 - DATA MINING](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=720282) which is taught in the Spring.
 
 In the table below I've collected all of the Powerpoint Slides, associated R Notebooks, and Datasets (after the table!) for my course (second half coming soon!). I hope that they will serve as an instructive reference. Please don't hesistate to email me if you have comments, questions, or corrections.
 
@@ -38,6 +38,8 @@ In the table below I've collected all of the Powerpoint Slides, associated R Not
 | Lecture 13 - Model Selection I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 13 - Model Selection I.pptx)    | [[Notebook]](Lecture 13 Notebook.Rmd)   |
 | Lecture 14 - Model Selection Pitfalls   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 14 - Model Selection Pitfalls.pptx)    | [[Notebook]](Lecture 14 Notebook.Rmd)   |
 |:--------|:-------:|--------:|
+
+Lecture 15-28 are *coming soon*
 
 ### Datasets
 
