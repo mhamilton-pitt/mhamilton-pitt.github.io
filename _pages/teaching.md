@@ -16,7 +16,7 @@ author_profile: true
 BUSQOM 1080 serves as the first introduction to R, and data analysis using R, for upper level business undergraduates at the University of Pittsburgh. It covers a variety of basic statistical methods and their implementations in R. For a complete list of topics please see my [Fall '20 Syllabus](https://mhamilton-pitt.github.io/files/Syllabus.pdf). The course is required for the [Certificate in Business Analytics](https://cba.pitt.edu/academics/certificates/certificate-program-in-business-analytics/) and a necessary prerequiste for [BUSSCM 1760 - DATA MINING](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=720282) which is taught in the Spring.
 
 
-In the table below I've collected all of my Powerpoint Slides, associated R Notebooks, and Datasets for my course (second half coming soon!). I hope that they will serve as an instructive reference, please don't hesistate to email me if you have comments, questions, or corrections.
+In the table below I've collected all of my Powerpoint Slides, associated R Notebooks, and Datasets (after the table!) for my course (second half coming soon!). I hope that they will serve as an instructive reference, please don't hesistate to email me if you have comments, questions, or corrections.
 
 ### Data Analysis for Business (Fall '20)
 
@@ -38,7 +38,7 @@ In the table below I've collected all of my Powerpoint Slides, associated R Note
 | Lecture 14 - Model Selection Pitfalls   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 14 - Model Selection Pitfalls.pptx)    | [[Notebook]](Lecture 14 Notebook.Rmd)   |
 |:--------|:-------:|--------:|
 
-### Data
+### Datasets
 
 * Below I list the datasets references in the course, in order of appearance:
   * [RegionEx_Data.txt](https://mhamilton-pitt.github.io/files/RegionEx_Data.txt)
