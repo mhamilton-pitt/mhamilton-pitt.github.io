@@ -41,13 +41,13 @@ In the table below I've collected all of my Powerpoint Slides, associated R Note
 ### Data
 
 * Below I list the datasets references in the course, in order of appearance:
- * [RegionEx_Data.txt](https://mhamilton-pitt.github.io/files/RegionEx_Data.txt)
- * [cba_admissions_1999.txt](https://mhamilton-pitt.github.io/files/cba_admissions_1999.txt)
- * [HR_data.txt](https://mhamilton-pitt.github.io/files/HR_data.txt)
- * [warming_cities_1900.csv](https://mhamilton-pitt.github.io/files/mlb.txt)
- * [house.txt](https://mhamilton-pitt.github.io/files/house.txt)
- * [HR_data.txt](https://mhamilton-pitt.github.io/files/HR_data.txt)
- * [Midterm2016.txt](https://mhamilton-pitt.github.io/files/Midterm2016.txt)
- * [hotel_reviews.txt](https://mhamilton-pitt.github.io/files/hotel_reviews.txt)
+  * [RegionEx_Data.txt](https://mhamilton-pitt.github.io/files/RegionEx_Data.txt)
+  * [cba_admissions_1999.txt](https://mhamilton-pitt.github.io/files/cba_admissions_1999.txt)
+  * [HR_data.txt](https://mhamilton-pitt.github.io/files/HR_data.txt)
+  * [warming_cities_1900.csv](https://mhamilton-pitt.github.io/files/mlb.txt)
+  * [house.txt](https://mhamilton-pitt.github.io/files/house.txt)
+  * [HR_data.txt](https://mhamilton-pitt.github.io/files/HR_data.txt)
+  * [Midterm2016.txt](https://mhamilton-pitt.github.io/files/Midterm2016.txt)
+  * [hotel_reviews.txt](https://mhamilton-pitt.github.io/files/hotel_reviews.txt)
  
 
