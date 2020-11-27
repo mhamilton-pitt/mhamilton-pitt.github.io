@@ -43,7 +43,7 @@ Lecture 15-28 are *coming soon*
 
 ### Datasets
 
-* Below I list the datasets references in the course, in order of appearance:
+* Below I list the datasets referenced in the course, in order of appearance:
   * [RegionEx_Data.txt](https://mhamilton-pitt.github.io/files/RegionEx_Data.txt)
   * [cba_admissions_1999.txt](https://mhamilton-pitt.github.io/files/cba_admissions_1999.txt)
   * [HR_data.txt](https://mhamilton-pitt.github.io/files/HR_data.txt)
