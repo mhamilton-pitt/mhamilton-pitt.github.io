@@ -39,7 +39,7 @@ In the table below I've collected all of the Powerpoint Slides, associated R Not
 | Lecture 14 - Model Selection Pitfalls   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 14 - Model Selection Pitfalls.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 14 Notebook.Rmd)   |
 |:--------|:-------:|--------:|
 
-Lecture 17-25 are *coming soon*
+Lectures 17-25 are *coming soon*
 
 ### Datasets
 
