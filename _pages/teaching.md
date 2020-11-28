@@ -24,19 +24,19 @@ In the table below I've collected all of the Powerpoint Slides, associated R Not
 | Lecture | Slides (.pptx) | Notebooks (.Rmd) |
 |:--------|:-------:|--------:|
 | Lecture 1 - Introduction to Business Analytics   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 1 - Intro to Business Analytics.pptx), [[Installation Guide]](Lecture 1(b) - Installing R, RStudio, and Swirl.pptx)    | -   |
-| Lecture 2 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 2 - A First Introduction to R.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 2 Notebook.Rmd)   |
-| Lecture 3 - A Introduction to R Programming  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 3 - A Introduction to R Programming.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 3 Notebook.Rmd)   |
-| Lecture 4 - A First Introduction to R II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 4 - A Introduction to R Programming II.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 4 Notebook.Rmd)   |
-| Lecture 5 - Introduction to Plotting!   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 5 - Introduction to Plotting!.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 5 Notebook.Rmd)   |
-| Lecture 6 - More on Plotting!   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 6 - More on Plotting!.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 6 Notebook.Rmd)   |
-| Lecture 7 - Comparing Groups   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 7 - Comparing Groups.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 7 Notebook.Rmd)   |
-| Lecture 8 - Comparing Groups II   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 8 - Comparing Groups II.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 8 Notebook.Rmd)   |
-| Lecture 9 - Simple Linear Regression   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 9 - Simple Linear Regression.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 9 Notebook.Rmd)   |
-| Lecture 10 - Simple Linear Regression II   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 10 - Simple Linear Regression II.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 10 Notebook.Rmd)   |
-| Lecture 11 - Multiple Regression I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 11 - Multiple Regression I.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 11 Notebook.Rmd)   |
-| Lecture 12 - Multiple Regression II   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 12 - Multiple Regression II.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 12 Notebook.Rmd)   |
-| Lecture 13 - Model Selection I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 13 - Model Selection I.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 13 Notebook.Rmd)   |
-| Lecture 14 - Model Selection Pitfalls   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 14 - Model Selection Pitfalls.pptx)    | [[Notebook]](https://mhamilton-pitt.github.io/files/Lecture 14 Notebook.Rmd)   |
+| Lecture 2 - A First Introduction to R   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 2 - A First Introduction to R.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696447)   |
+| Lecture 3 - A Introduction to R Programming  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 3 - A Introduction to R Programming.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696448)   |
+| Lecture 4 - A First Introduction to R II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 4 - A Introduction to R Programming II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696449)   |
+| Lecture 5 - Introduction to Plotting!   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 5 - Introduction to Plotting!.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696852)   |
+| Lecture 6 - More on Plotting!   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 6 - More on Plotting!.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696853)   |
+| Lecture 7 - Comparing Groups   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 7 - Comparing Groups.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696854)   |
+| Lecture 8 - Comparing Groups II   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 8 - Comparing Groups II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696855)   |
+| Lecture 9 - Simple Linear Regression   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 9 - Simple Linear Regression.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696856)   |
+| Lecture 10 - Simple Linear Regression II   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 10 - Simple Linear Regression II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696857)   |
+| Lecture 11 - Multiple Regression I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 11 - Multiple Regression I.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696859)   |
+| Lecture 12 - Multiple Regression II   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 12 - Multiple Regression II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696867)   |
+| Lecture 13 - Model Selection I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 13 - Model Selection I.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696868)   |
+| Lecture 14 - Model Selection Pitfalls   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 14 - Model Selection Pitfalls.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696869)   |
 |:--------|:-------:|--------:|
 
 Lectures 17-25 are *coming soon*
