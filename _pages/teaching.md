@@ -37,9 +37,13 @@ In the table below I've collected all of the Powerpoint Slides, associated R Not
 | Lecture 12 - Multiple Regression II   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 12 - Multiple Regression II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696867)   |
 | Lecture 13 - Model Selection I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 13 - Model Selection I.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696868)   |
 | Lecture 14 - Model Selection Pitfalls   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 14 - Model Selection Pitfalls.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/696869)   |
+| Lecture 17 - Data Processing I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 17 - Data Processing I.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/707354)   |
+| Lecture 18 - Data Processing II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 18 - Data Processing II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/707360)   |
+| Lecture 19 - Logistic Regression I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 19 - Logistic Regression I.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/707363)   |
+| Lecture 20 - Logistic Regression II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 20 - Logistic Regression II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/707794)   |
 |:--------|:-------:|--------:|
 
-Lectures 17-25 are *coming soon*
+Lectures 21-25 are *coming soon*
 
 ### Datasets
 
