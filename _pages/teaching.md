@@ -41,7 +41,7 @@ In the table below I've collected all of the Powerpoint Slides, associated R Not
 | Lecture 17 - Data Processing I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 17 - Data Processing I.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/707354)   |
 | Lecture 18 - Data Processing II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 18 - Data Processing II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/707360)   |
 | Lecture 19 - Logistic Regression I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 19 - Logistic Regression I.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/707363)   |
-| Lecture 20 - Logistic Regression II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 20 - Logistic Regression II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/707794)   |
+| Lecture 20 - Logistic Regression II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 20 - Logistic Regression II.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/711495)   |
 | Lecture 21 - Supervised Learning I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 21 - Supervised Learning I.pptx)    | [[Notebook]](https://rpubs.com/mhamilton/708213)   |
 | Lecture 22 - Supervised Learning II  | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 22 - Supervised Learning II.pptx)     | [[Notebook]](https://rpubs.com/mhamilton/708221)   |
 | Lecture 23 - Unsupervised Learning I   | [[Slides]](https://mhamilton-pitt.github.io/files/Lecture 23 - Unsupervised Learning I.pptx)     | [[Notebook]](https://rpubs.com/mhamilton/708344)   |
