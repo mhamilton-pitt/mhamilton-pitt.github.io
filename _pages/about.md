@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Mike, I'm an Assistant Professor of Business Analytics and Operations at the [University of Pittsburgh Joseph M. Katz Graduate School of Business](https://www.katz.business.pitt.edu/). I am also a member of [CAASI](https://sites.google.com/view/caasi-pitt/caasi?authuser=0). I am broadly interested in problems related to pricing, analytics, and market design.
+Hi! I'm Mike, I'm an Assistant Professor of Business Analytics and Operations at the [University of Pittsburgh Joseph M. Katz Graduate School of Business](https://www.katz.business.pitt.edu/), and a affilated member of the Center for Analytical Approaches to Social Innovation [(CAASI)](https://sites.google.com/view/caasi-pitt/caasi?authuser=0). I am broadly interested in problems related to pricing, analytics, and market design.
 
 I received my Ph.D. from Columbia University in [Operations Research](https://ieor.columbia.edu/) where I was advised by [Adam N. Elmachtoub](http://www.columbia.edu/~ae2516/). Before that, I earned a B.S. from Rutgers University in [Mathematics](https://www.math.rutgers.edu/).
 
