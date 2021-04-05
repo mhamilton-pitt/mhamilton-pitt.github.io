@@ -27,8 +27,8 @@ Note: Author ordering on all papers is alphabetical, as is convention in OR/MS.
   * Invited to present at the [Federal Trade Commission (FTC) Workshop on Consumer Issues Related to Loot Boxes](https://www.ftc.gov/news-events/events-calendar/inside-game-unlocking-consumer-issues-surrounding-loot-boxes), 2019 (one of four research papers selected).
   * <span style="color: orange;">1st Place, IBM Best Student Paper Award in Service Science, 2019 (to Xiao Lei).</span>
 
-* [The Value of Personalized Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3127719) with Adam N. Elmachtoub and Vishal Gupta. [[Direct Link]](https://mhamilton-pitt.github.io/files/vopp_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/VoPP_talk.pptx)
-  * **Management Science** (*Forthcoming*) 
+* [The Value of Personalized Pricing](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3821) with Adam N. Elmachtoub and Vishal Gupta. [[Direct Link]](https://mhamilton-pitt.github.io/files/vopp_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/VoPP_talk.pptx)
+  * **Management Science** (April 2021) 
   * Accepted in *The 15th Conference on Web and Internet Economics (**WINE**)*, 2019.
   * <span style="color: orange;">Finalist, INFORMS Service Science Cluster Best Paper Award, 2018. </span>
 
