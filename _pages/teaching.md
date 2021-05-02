@@ -62,7 +62,7 @@ In the table below I've collected all of the Powerpoint Slides, associated R Not
 
 
 ## CAASI Reading Group 
-I host the CAASI reading group which meets on Mondays. The reading group focus on analytic approaches for socially motivated problems like reducing recidivism, design platforms to match small businesses with community minded consumers, racial bias in policing, and more.
+I also host the CAASI reading group which meets every other Monday. The reading group focuses on analytic approaches to socially motivated problems like reducing recidivism, designing platforms to match small businesses with community minded consumers, racial bias in policing, and more.
 
 ### Summer '21 Reading Group on Community Centric Market Design
 I will be leading a reading group on market design for social good. All are welcome to join, for more information please see the [Summer Syllabus](CAASI_Reading_Group_Syllabus.pdf) for the reading group or email me. 
