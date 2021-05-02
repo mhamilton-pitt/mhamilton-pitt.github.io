@@ -11,8 +11,8 @@ author_profile: true
 * [BUSQOM 1080 - DATA ANALYSIS FOR BUSINESS](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=726332)
   * Fall 2019, Fall 2020
 
-* [CAASI - Summer Reading Group on Community Centric Market Design](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=726332)
-  * Fall 2019, Fall 2020
+* [CAASI Reading Group](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=726332)
+  * Spring 2021 -
 
 
   
