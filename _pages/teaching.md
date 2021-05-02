@@ -7,11 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
-
 * [BUSQOM 1080 - DATA ANALYSIS FOR BUSINESS](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=726332)
   * Fall 2019, Fall 2020
 
-* [CAASI Reading Group](https://catalog.upp.pitt.edu/preview_course.php?catoid=132&coid=726332)
+* [CAASI Reading Group](https://sites.google.com/view/caasi-pitt/caasi)
   * Spring 2021 -
 
 
