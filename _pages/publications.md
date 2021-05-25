@@ -11,7 +11,7 @@ Note: Author ordering on all papers is alphabetical, as is convention in OR/MS.
 
 # **Working Papers**
 
-* [Feature-Based Market Segmentation and Pricing](https://mhamilton-pitt.github.io/publications/) [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_cors2021.pptx)
+* [Feature-Based Market Segmentation and Pricing](https://mhamilton-pitt.github.io/publications/). [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_cors2021.pptx)
   * <details><summary>Abstract</summary> With the rapid development of data-driven analytics, many firms have begun experimenting with personalized pricing strategies, i.e. strategies that predict a customer's valuation then offer them a tailored price. Ideally, a firm would perfectly predict each customer's valuation and price their goods accordingly. Unfortunately, in practice these valuations must be predicted by the firm using noisy regression models, and the number of prices the firm can offer is constrained by operational considerations. In this work, we give a general framework for analyzing and optimizing semi-personalized pricing strategies where the seller uses features about their customers to jointly segment and price their market. Specifically, we show how a seller can leverage a noisy valuation model to construct segmentation and pricing decisions with provable bounds on the lost revenue. We then give a series of the results that explain how a seller can improve their strategies by decomposing their lost profits as stemming from either prediction error or limited price flexibility. Along the way we prove a number of structural properties about monopoly pricing when valuations are the output of a regression model that may be of independent interest. </details>
 
 
