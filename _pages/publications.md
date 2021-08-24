@@ -14,9 +14,9 @@ Note: Author ordering on all papers is alphabetical, as is convention in OR/MS. 
 * [Loot Box Pricing and Design](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3748) with Ningyuan Chen, Adam N. Elmachtoub, and Xiao Lei. [[Direct Link]](https://mhamilton-pitt.github.io/files/lb_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/LBPD_talk.pptx)
   * (J) **Management Science** (Dec. 2020)
   * (C) Accepted in *The 21st ACM Conference on Economics and Computation (**EC**)*, 2020.
-<!--   * Invited to present at the [Federal Trade Commission (FTC) Workshop on Consumer Issues Related to Loot Boxes](https://www.ftc.gov/news-events/events-calendar/inside-game-unlocking-consumer-issues-surrounding-loot-boxes), 2019 (one of four research papers selected). -->
   * <span style="color: orange;">Finalist, 2021 CSAMSE Conference Best Paper Award.</span>
-  * <span style="color: orange;">1st Place, IBM Best Student Paper Award in Service Science, 2019 (to Xiao Lei).</span>
+  * <span style="color: orange;">1st Place, IBM Best Student Paper Award in Service Science, 2019.</span>
+<!--   * Invited to present at the [Federal Trade Commission (FTC) Workshop on Consumer Issues Related to Loot Boxes](https://www.ftc.gov/news-events/events-calendar/inside-game-unlocking-consumer-issues-surrounding-loot-boxes), 2019 (one of four research papers selected). -->
 
 * [The Value of Personalized Pricing](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3821) with Adam N. Elmachtoub and Vishal Gupta. [[Direct Link]](https://mhamilton-pitt.github.io/files/vopp_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/VoPP_talk.pptx)
   * (J) **Management Science** (April 2021) 
