@@ -7,25 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
-Note: Author ordering on all papers is alphabetical, as is convention in OR/MS. (C) and (J) denote preliminary conference version and the full journal version, respectively.
+_Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS. (C) and (J) denote preliminary conference version and the full journal version, respectively.
 
 # **Accepted Papers**
 
 * [Loot Box Pricing and Design](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3748) with Ningyuan Chen, Adam N. Elmachtoub, and Xiao Lei. [[Direct Link]](https://mhamilton-pitt.github.io/files/lb_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/LBPD_talk.pptx)
-  * (J) **Management Science** (Dec. 2020)
-  * (C) Accepted in *The 21st ACM Conference on Economics and Computation (**EC**)*, 2020.
+  * (**J**) **Management Science** (Dec. 2020)
+  * (**C**) Accepted in *The 21st ACM Conference on Economics and Computation (**EC**)*, 2020.
   * <span style="color: orange;">Finalist, 2021 CSAMSE Conference Best Paper Award.</span>
   * <span style="color: orange;">1st Place, IBM Best Student Paper Award in Service Science, 2019.</span>
 <!--   * Invited to present at the [Federal Trade Commission (FTC) Workshop on Consumer Issues Related to Loot Boxes](https://www.ftc.gov/news-events/events-calendar/inside-game-unlocking-consumer-issues-surrounding-loot-boxes), 2019 (one of four research papers selected). -->
 
 * [The Value of Personalized Pricing](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3821) with Adam N. Elmachtoub and Vishal Gupta. [[Direct Link]](https://mhamilton-pitt.github.io/files/vopp_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/VoPP_talk.pptx)
-  * (J) **Management Science** (April 2021) 
-  * (C) Accepted in *The 15th Conference on Web and Internet Economics (**WINE**)*, 2019.
+  * (**J**) **Management Science** (April 2021) 
+  * (**C**) Accepted in *The 15th Conference on Web and Internet Economics (**WINE**)*, 2019.
   * <span style="color: orange;">Finalist, INFORMS Service Science Cluster Best Paper Award, 2018. </span>
 
 * [The Power of Opaque Products in Pricing](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3750) with Adam N. Elmachtoub. [[Direct Link]](https://mhamilton-pitt.github.io/files/opq_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/OPQ_talk.pptx)
-  * (J) **Management Science** (Jan. 2021)
-  * (C) Accepted in *The 13th Conference on Web and Internet Economics (**WINE**)*, 2017.
+  * (**J**) **Management Science** (Jan. 2021)
+  * (**C**) Accepted in *The 13th Conference on Web and Internet Economics (**WINE**)*, 2017.
 
 
 # **Working Papers**
@@ -37,7 +37,7 @@ Note: Author ordering on all papers is alphabetical, as is convention in OR/MS. 
 
 * [Project 412Connect: Bridging Students to Communities](https://mhamilton-pitt.github.io/publications/) w/ Alex DiChristofano, Sera Linardi, and Mara F. McCloud. [[Direct Link]](https://mhamilton-pitt.github.io/files/P412C.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_rmp.pptx)
   * Journal version in preparation
-  * (C) Accepted in *The 1st ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (**EAAMO**)*, 2021. **Oral Presentation.**
+  * (**C**) Accepted in *The 1st ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (**EAAMO**)*, 2021. **Oral Presentation.**
 <!--   * <details><summary>Abstract</summary> In this work, we describe some of the challenges Black-owned businesses face both in the United States and specifically in the city of Pittsburgh. Taking into account local dynamics and the communicated desires of Black-owned businesses in the Pittsburgh region, we determine that university students represent an under-utilized market for these businesses. We investigate the root causes for this inefficiency and design and implement a platform, 412Connect (\url{https://www.412connect.org/}), to increase online support for Pittsburgh Black-owned businesses from students in the greater university community. The site operates by coordinating interactions between student users and participating businesses via targeted recommendations. For platform designers, we describe the project from its conception, paying special attention to our motivation and design choices. Our design choices are aided by two simple, novel models for badge design and recommendation systems that may be of theoretical interest. We also highlight challenges and lessons from coordinating a grassroots volunteer project working in conjunction with community partners, and the opportunities and pitfalls of engaged scholarship. </details> -->
 
 
