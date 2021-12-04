@@ -13,7 +13,7 @@ author_profile: true
   * I’m am eager to connect with new  industry collaborators, especially those in the greater Pittsburgh community. If you have an interesting problem please send me an email at mhamilton (at) katz.pitt.edu to set-up a meeting!
   
 * *Prospective Students*
-  * If you’re a prospective Ph.D. candidate, consider applying to our [Ph.D. program in Business Analytics and Operations](https://www.katz.business.pitt.edu/academics/phd/phd-bao). Please specify in your application that you are interested in working with me.
+  * If you’re a prospective Ph.D. candidate, consider applying to our [Ph.D. program in Business Analytics and Operations](https://business.pitt.edu/phd/phd-in-business-analytics-and-operations/). Please specify in your application that you are interested in working with me.
 
 
   * If you’re an existing Ph.D. student and want to collaborate on a project, please:
