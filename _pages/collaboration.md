@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 {% include base_path %}
-* *Academic Collaborators*
-  * I'm actively taking on more projects. If you have an interesting problem that intersects with some of my work, or are looking for a new problem please reach out over email and we can set-up a Zoom call.
-
 * *Industry Collaborators*
   * I am eager to connect with new industry collaborators, especially those in the greater Pittsburgh community. Even small Ph.D. trained industrial research/data science teams cost hundreds of thousands of dollars in salary plus associated costs, academic collaboration with people like myself and my students can provide the same level of cutting edge analysis and innovation at no financial cost while advancing the common good. If you have an interesting problem please send me an email to set-up a meeting!
+
+* *Academic Collaborators*
+  * I'm actively taking on more projects. If you have an interesting problem that intersects with some of my work, or are looking for a new problem please reach out over email and we can set-up a Zoom call.
   
 * *Prospective Students*
   * If you’re a prospective Ph.D. candidate, consider applying to our [Ph.D. program in Business Analytics and Operations](https://business.pitt.edu/phd/phd-in-business-analytics-and-operations/). Please specify in your application (specifically in the personal statement!) that you are interested in working with me. For more information about the program I'm happy to chat about it over email as well.
