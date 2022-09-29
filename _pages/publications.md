@@ -30,7 +30,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 # **Working Papers**
 
-* [Optimal Feature-Based Market Segmentation and Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) w/ Titing Cui. [[Direct Link]](https://mhamilton-pitt.github.io/files/FBMSP.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_rmp.pptx)
+* [Optimal Feature-Based Market Segmentation and Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) w/ Titing Cui. [[Direct Link]](https://mhamilton-pitt.github.io/files/FBMSP.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_SS.pptx)
   * Submitted.
   * (**C**) Accepted in *The 18th Conference on Web and Internet Economics (**WINE**)*, 2022.
   * <span style="color: orange;">Finalist, INFORMS Service Science Cluster Best Paper Award, 2022.</span>
