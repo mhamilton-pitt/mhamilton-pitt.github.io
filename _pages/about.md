@@ -17,5 +17,5 @@ I am always on the lookout for interesting problems, strong students, and new co
 # **Team**
 I have the pleasure of working with several brilliant Ph.D. students here at Katz.
 * [Kasra Tari](), 2022-
-* [Qiqi Hao](), 2022-
+<!-- * [Qiqi Hao](), 2022- -->
 * [Titing Cui](https://tcui-pitt.github.io/), 2019-2024 (Expected). <span style="color: orange;"> On the 2023-2024 Academic Job Market.  </span>
