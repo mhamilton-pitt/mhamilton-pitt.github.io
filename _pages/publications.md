@@ -57,6 +57,6 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 # **Work in Progress**
 
-* [Rating Systems Design: Structure, Incentives, and Fees]() w/ Titing Cui and Su Jia 
+* [Rating Systems Design: Structure, Incentives, and Fees]() w/ Titing Cui and Su Jia. 
 * [Optimal Release Scheduling for Digital Media]() w/ Jennifer Shang and Kasra Tari. 
 * [Pricing and Production Strategy for Luxury Goods]() w/ Enfeng Xing. 
