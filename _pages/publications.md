@@ -26,7 +26,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 * [The Power of Opaque Products in Pricing](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3750) with Adam N. Elmachtoub. [[Direct Link]](https://mhamilton-pitt.github.io/files/opq_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/OPQ_talk.pptx)
   * (**J**) **Management Science** (Jan. 2021)
   * (**C**) Accepted in *The 13th Conference on Web and Internet Economics (**WINE**)*, 2017.
-  * <span style="color: orange;"> Selected for [Management Science Review Blog](https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Don-t-make-me-choose!-Opaque-selling-as-an-alternative-to-discriminatory-pricing)</span>
+  * <span style="color: orange;"> Feature article. Selected for [Management Science Review Blog](https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Don-t-make-me-choose!-Opaque-selling-as-an-alternative-to-discriminatory-pricing)</span>
 
 # **Working Papers**
 
