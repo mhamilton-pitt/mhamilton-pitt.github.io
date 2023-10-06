@@ -12,7 +12,7 @@ Hi! I'm Mike, I'm an Assistant Professor of Business Analytics and Operations at
 
 I like to describe my research focus as "pricing for market design". Market design involves reshaping market structures to achieve specific objectives. In my research, I look specifically at how altering the structure and mechanics of price offerings effects outcomes in a marketplace. I study what is (and is not) possible just by changing the structure of the prices, with diverse applications to personalization, recommendation systems, dating markets, market design for social good, and sustainability. For more details about my work, please see my [CV](https://mhamilton-pitt.github.io/files/Resume_CV.pdf), [Google Scholar](https://scholar.google.com/citations?user=kJjuGMgAAAAJ&hl=en), and/or list of [Papers](https://mhamilton-pitt.github.io/publications/).
 
-If that sounds interesting to you, I am always on the lookout for interesting problems, strong students, and new collaborators. [Are you interested in working with me? Click here!](https://mhamilton-pitt.github.io/collaboration/). 
+If this sort of work sounds interesting to you, I am always on the lookout for timely problems, strong students, and new collaborators. [Are you interested in working with me? Click here!](https://mhamilton-pitt.github.io/collaboration/). 
 
 
 # **Team**
