@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-Please see my [CV](https://mhamilton-pitt.github.io/files/Resume_CV.pdf).
+Please see my [CV](https://mhamilton-pitt.github.io/files/CV.pdf).
 
 For fun, also see my [CV of Failures](https://mhamilton-pitt.github.io/files/CV_of_Failure.pdf).
 
