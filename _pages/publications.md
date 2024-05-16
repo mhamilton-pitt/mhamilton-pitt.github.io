@@ -61,6 +61,6 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 * [Rating System Design: Structure, Incentives, and Fees]() w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/Ratings_INFORMS23.pptx)
 * [Hicksian Unit-Demand Pricing]() w/ Jourdain Lamperski and Kasra Tari. [[Slides]](https://mhamilton-pitt.github.io/files/HUDP_INFORMS_Opt.pptx)
-* [Pricing for Two-Sided Dating Platforms]() w/ Titing Cui and Qiqi Hao.
-* [Optimal Release Scheduling for Digital Media]() w/ Mike Gordon, Jennifer Shang and Kasra Tari.
+* [Managing Trade-offs Between Revenue, Access and Market Balance on Online Dating Platforms]() w/ Titing Cui and Qiqi Hao.
 * [Can Personalized Pricing be Progressive?]() w/ Max Biggs, Titing Cui and Enfeng Xing.
+* [Optimal Release Scheduling for Digital Media]() w/ Mike Gordon, Jennifer Shang and Kasra Tari.
