@@ -17,6 +17,10 @@ If this sort of work sounds interesting to you, I am always on the lookout for t
 
 # **Team**
 I have the pleasure of working with several brilliant Ph.D. students here at Katz.
+* [Enfeng Xing](https://www.linkedin.com/in/enfeng-xing-6ab8842b0/), 2024.
 * [Kasra Ganjizadeh](https://www.linkedin.com/in/kasra-tari-901bb2141/), 2022-
 <!-- * [Qiqi Hao](), 2022- -->
 * [Titing Cui](https://tcui-pitt.github.io/), 2019-2024 (Expected). <span style="color: orange;"> On the 2023-2024 Academic Job Market.  </span>
+
+
+
