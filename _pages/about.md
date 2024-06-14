@@ -20,8 +20,7 @@ I have the pleasure of working with several brilliant Ph.D. students.
 * [Enfeng Xing](https://www.linkedin.com/in/enfeng-xing-6ab8842b0/), 2024.
 * [Kasra Ganjizadeh](https://www.linkedin.com/in/kasra-tari-901bb2141/), 2022-
 * [Qiqi Hao](), 2022 -
-* [Titing Cui](https://tcui-pitt.github.io/), 2019-2024.
-  ** First Placement: Tenure Track Assistant Professor at University of Tulsa.
+* [Titing Cui](https://tcui-pitt.github.io/), 2019-2024. <u>First Placement</u>: Tenure Track Assistant Professor at University of Tulsa.
 
 
 
