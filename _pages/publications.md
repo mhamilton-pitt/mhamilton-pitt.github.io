@@ -56,7 +56,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
   * (**J**) Submitted.
   * (**C**) Accepted in *The 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (**EAAMO**)*, 2023.
 
-* [Fresh Rating Systems: Structure, Incentives, and Fees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4875071) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/Ratings_INFORMS23.pptx)[[Code]](https://github.com/tcui-pitt/Ratings)
+* [Fresh Rating Systems: Structure, Incentives, and Fees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4875071) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/Ratings_MSOM2024.pptx)[[Code]](https://github.com/tcui-pitt/Ratings)
   * (**J**) Submitted.
 
   
