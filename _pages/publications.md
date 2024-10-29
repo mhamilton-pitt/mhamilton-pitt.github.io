@@ -30,6 +30,10 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 # **Working Papers**
 
+* [Pricing Strategies for Online Dating Platforms](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4032735) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/ODP_pptx.pptx)
+  * (**J**) Under revision.
+  * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2024.</span>
+
 * [Optimal Feature-Based Market Segmentation and Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_SS.pptx)[[Code]](https://github.com/tcui-pitt/FBMSP)
   * (**J**) Under revision.
   * (**C**) Accepted in *The 18th Conference on Web and Internet Economics (**WINE**)*, 2022.
@@ -55,8 +59,6 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 * [Fresh Rating Systems: Structure, Incentives, and Fees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4875071) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/Ratings_MSOM2024.pptx)[[Code]](https://github.com/tcui-pitt/Ratings)
   * (**J**) Submitted.
 
-* [Pricing Strategies for Online Dating Platforms](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4032735) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/ODP_pptx.pptx)
-  * (**J**) Submitted.
 
 
   
