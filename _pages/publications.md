@@ -53,7 +53,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
   * (**J**) Submitted.
   * (**C**) Accepted in *The 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (**EAAMO**)*, 2023.
 
-* [Pricing Strategies for Online Dating Platforms](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4032735) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/ODP_pptx.pptx)
+* [Pricing Online Dating Subscriptions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4032735) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/ODP_pptx.pptx)
   * (**J**) Submitted.
   * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2024.</span>
 
