@@ -61,11 +61,12 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
   * (**J**) Submitted.
   * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2025.</span>
 
+* [Can Price Discrimination be Progressive](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141372) w/ Max Biggs, Titing Cui and Enfeng Xing. [[Slides]]()[[Code]]()
+  * (**J**) Submitted.
 
-  
+ 
 # **Work in Progress**
 
-* [Can Price Discrimination be Progressive?]() w/ Max Biggs, Titing Cui and Enfeng Xing.
-* [Hicksian Unit-Demand Pricing]() w/ Jourdain Lamperski and Kasra Tari. [[Slides]](https://mhamilton-pitt.github.io/files/HUDP_INFORMS_Opt.pptx)
+* [Unit-Demand Pricing for Min-Buying Customers]() w/ Jourdain Lamperski and Kasra Tari. [[Slides]](https://mhamilton-pitt.github.io/files/HUDP_INFORMS_Opt.pptx)
 * [Managing Trade-offs Between Revenue, Access and Market Balance on Online Dating Platforms]() w/ Titing Cui and Qiqi Hao.
 * [Optimal Release Scheduling for Digital Media]() w/ Mike Gordon, Jennifer Shang and Kasra Tari.
