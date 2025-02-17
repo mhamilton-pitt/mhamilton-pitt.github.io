@@ -17,9 +17,9 @@ If this sort of work sounds interesting to you, I am always on the lookout for t
 
 # **Team**
 I have the pleasure of working with several brilliant Ph.D. students.
-* [Enfeng Xing](https://efxing.github.io/), 2024.
 * [Kasra Ganjizadeh](https://www.linkedin.com/in/kasra-tari-901bb2141/), 2022 -
 * [Qiqi Hao](), 2022 -
+* [Enfeng Xing](https://efxing.github.io/), 2024.
 * [Titing Cui](https://tcui-pitt.github.io/), 2019-2024. <u>First Position</u>: Tenure Track Assistant Professor at University of Tulsa.
 
 
