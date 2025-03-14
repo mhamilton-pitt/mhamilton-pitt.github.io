@@ -65,9 +65,11 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 )[[Code]](https://github.com/tcui-pitt/Progressive_Pricing)
   * (**J**) Submitted.
 
- 
+* [Unit-Demand Pricing for Min-Buying Customers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5178133) w/ Titing Cui, Jourdain Lamperski and Kasra Tari. [[Slides]](https://mhamilton-pitt.github.io/files/HUDP_INFORMS_Opt.pptx)
+  * (**J**) Submitted.
+
+
 # **Work in Progress**
 
-* [Unit-Demand Pricing for Min-Buying Customers]() w/ Jourdain Lamperski and Kasra Tari. [[Slides]](https://mhamilton-pitt.github.io/files/HUDP_INFORMS_Opt.pptx)
 * [Managing Trade-offs Between Revenue, Access and Market Balance on Online Dating Platforms]() w/ Titing Cui and Qiqi Hao.
 * [Optimal Release Scheduling for Digital Media]() w/ Mike Gordon, Jennifer Shang and Kasra Tari.
