@@ -44,10 +44,14 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 
 * [Churning while Experimenting: Maximizing User Engagement in Recommendation Platforms](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3871915) w/ Raghav Singal. [[Slides]](https://mhamilton-pitt.github.io/files/CwE_Tulsa.pptx)
-  * (**J**) Submitted.
+  * (**J**) Under Revision.
   * (**C**) Accepted in *The 20th Conference on Web and Internet Economics (**WINE**)*, 2024.
   * <span style="color: orange;"> Finalist, 2020 RMP Data-Driven Research Challenge.  </span>
 <!--   * <details><summary>Abstract</summary> Online media platforms such as Spotify, YouTube Music, and NetEase Cloud Music rely on long-term user engagement for revenue generation. The primary operational level under their control is content recommendation (i.e., what content to recommend to various users), where the right recommendation can induce users to further interact with the platform, sign-up for premium memberships, view ads, and more. However, given constantly updating supply (i.e., new content being created) and heterogeneous user behavior, optimal recommendation is challenging. It requires a careful balance between exploration (understanding the efficacy of new content) and exploitation (recommending well understood existing content). Motivated by a real-world impressions level dataset from NetEase Cloud Music, we propose a two-period model for the platform recommendation problem, with the aim of maximizing long term user engagement. Our model captures two key features of this marketplace: (1) supply-side learning (i.e., platform learning the efficacy of new content) and (2) demand-side heterogeneous churning (i.e., different users churning at different rates as a function of both their engagement and their types). We use our two-period model to understand the interplay between churning while learning and how it impacts the long-term user engagement. In addition to characterizing the structure of the optimal learning policy for the platform recommendation problem (i.e., which users to experiment on), we numerically illustrate our key findings on a wide range of parameters. We find that accounting for heterogeneous churning behavior while learning the efficacy of new content can lead to improvements of up to 14% in the long-term user engagement. </details> -->
+
+* [Fresh Rating Systems: Structure, Incentives, and Fees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4875071) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/Ratings_MSOM2024.pptx)[[Code]](https://github.com/tcui-pitt/Ratings)
+  * (**J**) Under Revision.
+  * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2025.</span>
 
 * [The Effects of Competition on Corporate Sustainability](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344348) w/ Titing Cui, Esther Gal-Or, Mike Gordon, and Jennifer Shang. [[Slides]](https://mhamilton-pitt.github.io/files/Corporate_Sustainability_slides.pptx)[[Code]](https://github.com/tcui-pitt/Sustainable_Investment) [[Video]](https://www.youtube.com/watch?v=IYGTRO25Fng)
   * (**J**) Submitted.
@@ -56,10 +60,6 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 * [Pricing Online Dating Subscriptions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4032735) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/ODP_pptx.pptx)
   * (**J**) Submitted.
   * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2024.</span>
-
-* [Fresh Rating Systems: Structure, Incentives, and Fees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4875071) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/Ratings_MSOM2024.pptx)[[Code]](https://github.com/tcui-pitt/Ratings)
-  * (**J**) Submitted.
-  * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2025.</span>
 
 * [Can Price Discrimination be Progressive](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141372) w/ Max Biggs, Titing Cui and Enfeng Xing. [[Slides]](PerPrice_Dartmouth.pptx
 )[[Code]](https://github.com/tcui-pitt/Progressive_Pricing)
