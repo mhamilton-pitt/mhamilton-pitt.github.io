@@ -14,6 +14,9 @@ My research centers around pricing and market design. I examine how changes in t
 
 If this sort of work sounds interesting to you, I am always on the lookout for timely problems, strong students, and new collaborators. [Are you interested in working with me? Click here!](https://mhamilton-pitt.github.io/collaboration/). 
 
+# **News**
+I am the general chair for EAAMO 2025 which will be hosted at the University of Pittsburgh on Nov. 5-7. For more information about the conference, please visit [EAAMO 2025 homepage](https://conference.eaamo.org/). Submissions due April 17th, 2025!
+
 
 # **Team**
 I have the pleasure of working with several brilliant Ph.D. students.
