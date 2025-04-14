@@ -15,7 +15,7 @@ My research centers around pricing and market design. I examine how changes in t
 If this sort of work sounds interesting to you, I am always on the lookout for timely problems, strong students, and new collaborators. [Are you interested in working with me? Click here!](https://mhamilton-pitt.github.io/collaboration/). 
 
 # **News**
-I am the general chair for the fifth ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO) which will be hosted at the University of Pittsburgh on Nov. 5-7. For more information about the conference, please visit the [EAAMO 2025 homepage](https://conference.eaamo.org/). Submissions due April 17th, 2025!
+I am the local chair for the fifth ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO) which will be hosted at the University of Pittsburgh on Nov. 5-7. For more information about the conference, please visit the [EAAMO 2025 homepage](https://conference.eaamo.org/). Submissions due April 17th, 2025!
 
 
 # **Team**
