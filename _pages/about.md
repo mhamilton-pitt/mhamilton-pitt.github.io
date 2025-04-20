@@ -20,6 +20,7 @@ I am the local chair for the fifth ACM Conference on Equity and Access in Algori
 
 # **Team**
 I have the pleasure of working with several brilliant Ph.D. students.
+* [Alex Lim](), 2024 -
 * [Kasra Ganjizadeh](https://www.linkedin.com/in/kasra-tari-901bb2141/), 2022 -
 * [Qiqi Hao](), 2022 -
 * [Enfeng Xing](https://efxing.github.io/), 2024.
