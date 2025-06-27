@@ -51,6 +51,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 * [Fresh Rating Systems: Structure, Incentives, and Fees](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4875071) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/Ratings_MSOM2024.pptx)[[Code]](https://github.com/tcui-pitt/Ratings)
   * (**J**) Under Revision.
+  * (**C**)  Accepted to *Workshop on Two-sided Marketplace Optimization: Search, Discovery, Matching, Pricing & Growth in conjunction with KDD Conference (**TSMO-KDD**)*, 2025.
   * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2025.</span>
 
 * [The Effects of Competition on Corporate Sustainability](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344348) w/ Titing Cui, Esther Gal-Or, Mike Gordon, and Jennifer Shang. [[Slides]](https://mhamilton-pitt.github.io/files/Corporate_Sustainability_slides.pptx)[[Code]](https://github.com/tcui-pitt/Sustainable_Investment) [[Video]](https://www.youtube.com/watch?v=IYGTRO25Fng)
