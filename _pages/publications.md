@@ -11,6 +11,11 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 # **Accepted Papers**
 
+* [Optimal Feature-Based Market Segmentation and Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) w/ Titing Cui. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103)[[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_SS.pptx)[[Code]](https://github.com/tcui-pitt/FBMSP)
+  * (**J**) Conditionally Accepted at **Operations Research**.
+  * (**C**) Accepted in *The 18th Conference on Web and Internet Economics (**WINE**)*, 2022.
+  * <span style="color: orange;">Third Place, INFORMS Service Science Cluster Best Paper Award, 2022.</span>
+
 * [Loot Box Pricing and Design](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3748) with Ningyuan Chen, Adam N. Elmachtoub, and Xiao Lei. [[Direct Link]](https://mhamilton-pitt.github.io/files/lb_final.pdf) [[Slides]](https://mhamilton-pitt.github.io/files/LBPD_talk.pptx) [[Code]](https://github.com/leixiao32229/LBPD)
   * (**J**) **Management Science** (Dec. 2020)
   * (**C**) Accepted in *The 21st ACM Conference on Economics and Computation (**EC**)*, 2020.
@@ -29,12 +34,6 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
   * <span style="color: orange;"> Feature article. Selected for [Management Science Review Blog](https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Don-t-make-me-choose!-Opaque-selling-as-an-alternative-to-discriminatory-pricing)</span>
 
 # **Working Papers**
-
-* [Optimal Feature-Based Market Segmentation and Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_SS.pptx)[[Code]](https://github.com/tcui-pitt/FBMSP)
-  * (**J**) Major Revision at **Operations Research**.
-  * (**C**) Accepted in *The 18th Conference on Web and Internet Economics (**WINE**)*, 2022.
-  * <span style="color: orange;">Third Place, INFORMS Service Science Cluster Best Paper Award, 2022.</span>
-<!--   * <details><summary>Abstract</summary> With the rapid development of data-driven analytics, many firms have begun experimenting with personalized pricing strategies, i.e. strategies that predict a customer's valuation then offer them a tailored price. Ideally, a firm would perfectly predict each customer's valuation and price their goods accordingly. Unfortunately, in practice these valuations must be predicted by the firm using noisy regression models, and the number of prices the firm can offer is constrained by operational considerations. In this work, we give a general framework for analyzing and optimizing semi-personalized pricing strategies where the seller uses features about their customers to jointly segment and price their market. Specifically, we show how a seller can leverage a noisy valuation model to construct segmentation and pricing decisions with provable bounds on the lost revenue. We then give a series of the results that explain how a seller can improve their strategies by decomposing their lost profits as stemming from either prediction error or limited price flexibility. Along the way we prove a number of structural properties about monopoly pricing when valuations are the output of a regression model that may be of independent interest. </details> -->
 
 * [Platform Design with Prosocial Participants: Lessons from 412Connect](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4735098) w/ Alex DiChristofano, Qiqi Hao, and Sera Linardi. [[Slides]](https://mhamilton-pitt.github.io/files/412Connect_YinzOR23.pptx)
   * (**J**) Major Revision at **Operations Research**.
