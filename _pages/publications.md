@@ -12,7 +12,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 # **Accepted Papers**
 
 * [Optimal Feature-Based Market Segmentation and Pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) w/ Titing Cui. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_SS.pptx) [[Code]](https://github.com/tcui-pitt/FBMSP)
-  * (**J**) Accepted at **Operations Research** (July 2025)
+  * (**J**) Accepted at **Operations Research** (Sept. 2025)
   * (**C**) Accepted in *The 18th Conference on Web and Internet Economics (**WINE**)*, 2022.
   * <span style="color: orange;">Third Place, INFORMS Service Science Cluster Best Paper Award, 2022.</span>
 
