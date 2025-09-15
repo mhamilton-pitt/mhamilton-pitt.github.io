@@ -12,10 +12,10 @@ Hi! I'm Mike, I'm an Assistant Professor of Business Analytics and Operations at
 
 My research centers around pricing and market design. I examine how changes in the structure and mechanics of price offerings affect market outcomes, with diverse applications in online dating, e-commerce, and market design for social good. For more details about my work, please see my [CV](https://mhamilton-pitt.github.io/files/CV.pdf), [Google Scholar](https://scholar.google.com/citations?user=kJjuGMgAAAAJ&hl=en), and/or my [Papers](https://mhamilton-pitt.github.io/publications/).
 
-If this sort of work sounds interesting to you, I am always on the lookout for timely problems, strong students, and new collaborators. [Are you interested in working with me? Click here!](https://mhamilton-pitt.github.io/collaboration/). 
+If this sort of work sounds interesting to you, I am always on the lookout for timely problems, strong students, and new collaborators. [Are you interested in working with me? Click here!](https://mhamilton-pitt.github.io/collaboration/). My email is mih140 (at) pitt (dot) edu. 
 
 # **News**
-I am the local chair for the fifth ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO) which will be hosted at the University of Pittsburgh on Nov. 5-7. For more information about the conference, please visit the [EAAMO 2025 homepage](https://conference.eaamo.org/). Submissions due April 17th, 2025!
+I am the local chair for the fifth ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO) which will be hosted at the University of Pittsburgh on Nov. 5-7. For more information about the conference, please visit the [EAAMO 2025 homepage](https://conference.eaamo.org/).
 
 
 # **Team**
