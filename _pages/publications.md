@@ -64,7 +64,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 * [Can Price Discrimination be Progressive](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141372) w/ Max Biggs, Titing Cui and Enfeng Xing. [[Slides]](PerPrice_Dartmouth.pptx
 )[[Code]](https://github.com/tcui-pitt/Progressive_Pricing)
   * (**J**) Submitted.
-  * <span style="color: orange;"> Finalist, INFORMS Junior Faculty Interest Group (JFIG) Paper Competition, 2025.  </span>
+  * <span style="color: orange;"> Third Place, INFORMS Junior Faculty Interest Group (JFIG) Paper Competition, 2025.  </span>
 
 * [Unit-Demand Pricing for Min-Buying Customers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5178133) w/ Jourdain Lamperski and Kasra Tari. [[Slides]](https://mhamilton-pitt.github.io/files/HUDP_INFORMS_Opt.pptx)
   * (**J**) Submitted.
