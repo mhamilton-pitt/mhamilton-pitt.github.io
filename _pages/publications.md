@@ -52,7 +52,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
   * (**J**) Major Revision at **Production and Operations Management**.
   * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2024.</span>
 
-* [Can Price Discrimination be Progressive](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141372) w/ Max Biggs, Titing Cui and Enfeng Xing. [[Slides]](PerPrice_Dartmouth.pptx
+* [Can Price Discrimination be Progressive?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141372) w/ Max Biggs, Titing Cui and Enfeng Xing. [[Slides]](PerPrice_Dartmouth.pptx
 )[[Code]](https://github.com/tcui-pitt/Progressive_Pricing)
   * (**J**) Submitted.
   * <span style="color: orange;"> Third Place, INFORMS Junior Faculty Interest Group (JFIG) Paper Competition, 2025.  </span>
