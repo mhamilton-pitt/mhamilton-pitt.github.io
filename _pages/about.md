@@ -14,10 +14,10 @@ My research centers around pricing and market design. I examine how changes in t
 
 If this sort of work sounds interesting to you, I am always on the lookout for timely problems, strong students, and new collaborators. [If you interested in working with me, please click here!](https://mhamilton-pitt.github.io/collaboration/). For all other inquires, you can reach me by email at mih140 (at) pitt (dot) edu. 
 
-<!--
+
 # **News**
-I am the local chair for the fifth ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO) which will be hosted at the University of Pittsburgh on Nov. 5-7. For more information about the conference, please visit the [EAAMO 2025 homepage](https://conference.eaamo.org/).
--->
+I will be joining the [Operations Management group](https://zicklin.baruch.cuny.edu/faculty-research/academic-departments/management/) at CUNY-Baruch in Fall 2026
+
 
 # **Team**
 I have the pleasure of working with several brilliant Ph.D. students.
@@ -27,5 +27,7 @@ I have the pleasure of working with several brilliant Ph.D. students.
 * [Enfeng Xing](https://efxing.github.io/), 2024 (CSC One Year Vistor).
 * [Titing Cui](https://tcui-pitt.github.io/), 2019-2024. <u>First Position</u>: Tenure Track Assistant Professor at University of Tulsa.
 
-
+<!--
+Comment
+-->
 
