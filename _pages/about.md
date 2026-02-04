@@ -16,7 +16,7 @@ If this sort of work sounds interesting to you, I am always on the lookout for t
 
 
 # **News**
-I will be joining the [Operations Management group](https://zicklin.baruch.cuny.edu/faculty-research/academic-departments/management/) at CUNY-Baruch in Fall 2026
+I will be joining the [Operations Management group](https://zicklin.baruch.cuny.edu/subject_matter_expert/operations-management/) at Baruch College, CUNY in Fall 2026
 
 
 # **Team**
