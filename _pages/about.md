@@ -19,7 +19,7 @@ If this sort of work sounds interesting to you, I am always on the lookout for t
 -->
 
 # **Team**
-I have the pleasure of working with several brilliant Ph.D. students.
+I have and have had the pleasure of working with many talented Ph.D. students.
 * [Alex Lim](https://www.linkedin.com/in/alejandro-lim/), 2024 -
 * [Kasra Ganjizadeh](https://www.linkedin.com/in/kasra-tari-901bb2141/), 2022 -
 * [Qiqi Hao](), 2022 - 
