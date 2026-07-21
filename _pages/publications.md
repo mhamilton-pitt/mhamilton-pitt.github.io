@@ -66,9 +66,6 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 * [The Effects of Competition on Corporate Sustainability](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344348) w/ Titing Cui, Esther Gal-Or, Mike Gordon, and Jennifer Shang. [[Slides]](https://mhamilton-pitt.github.io/files/Corporate_Sustainability_slides.pptx)[[Code]](https://github.com/tcui-pitt/Sustainable_Investment) [[Video]](https://www.youtube.com/watch?v=IYGTRO25Fng)
   * (**C**) Accepted in *The 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (**EAAMO**)*, 2023.
 
-<!-- 
 # **Work in Progress**
 
-* [Managing Trade-offs Between Revenue, Access and Market Balance on Online Dating Platforms]() w/ Titing Cui and Qiqi Hao.
-* [Optimal Release Scheduling for Digital Media]() w/ Mike Gordon, Jennifer Shang and Kasra Tari.
--->
+* [Can LLMs Price Optimally? Evidence from Pricing Benchmarks]() w/ Qiqi Hao, Ovunc Yilmaz, Maxime Cohen, Titing Cui, and Alex Lim. [[Slides]](https://mhamilton-pitt.github.io/files/Benchmarking AI Pricing RMP 26.pptx)
