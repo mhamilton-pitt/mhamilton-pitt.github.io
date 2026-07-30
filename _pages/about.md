@@ -12,7 +12,7 @@ Hi! I'm Mike, I'm an Assistant Professor of Operations Management at the [Baruch
 
 My research centers around pricing and market design. I look at how changes in the structure and mechanics of price offerings impact market outcomes, with diverse applications in e-commerce and market design for social good. For more details about my work, please see my [CV](https://mhamilton-pitt.github.io/files/CV.pdf), [Google Scholar](https://scholar.google.com/citations?user=kJjuGMgAAAAJ&hl=en), and/or my [Papers](https://mhamilton-pitt.github.io/publications/).
 
-If this sort of work sounds interesting to you, I am always on the lookout for timely problems, strong students, and new collaborators. [If you interested in working with me, please click here!](https://mhamilton-pitt.github.io/collaboration/). For all other inquires, you can reach me by email at mih140 (at) pitt (dot) edu. 
+If this sort of work sounds interesting to you, I am always on the lookout for timely problems, strong students, and new collaborators. [If you interested in working with me, please click here!](https://mhamilton-pitt.github.io/collaboration/). For all other inquiries, you can reach me by email at michael.hamilton (at) baruch (dot) cuny (dot) edu. 
 
 <!--
 # **News**
