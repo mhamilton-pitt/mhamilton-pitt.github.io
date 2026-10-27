@@ -11,8 +11,8 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 # **Accepted Papers**
 
-* [Design and Pricing of Online Dating Subscriptions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4032735) w/ Titing Cui. [[Slides]](https://mhamilton-pitt.github.io/files/ODP_pptx.pptx)
-  * (**J**) Accepted in **Production and Operations Management** (Oct. 2026)
+* [Design and Pricing of Online Dating Subscriptions](https://journals.sagepub.com/doi/10.1177/10591478261505531) w/ Titing Cui. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4032735) [[Slides]](https://mhamilton-pitt.github.io/files/ODP_pptx.pptx)
+  * (**J**) **Production and Operations Management** (Oct. 2026)
   * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2024.</span>
 
 * [Optimal Feature-Based Market Segmentation and Pricing](https://pubsonline.informs.org/doi/full/10.1287/opre.2022.0490) w/ Titing Cui. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_SS.pptx) [[Code]](https://github.com/tcui-pitt/FBMSP)
