@@ -15,7 +15,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
   * (**J**) **Production and Operations Management** (Oct. 2026)
   * <span style="color: orange;">Finalist, POMS College of Service Operations Management (CSOM) Best Student Paper, 2024.</span>
 
-* [Optimal Feature-Based Market Segmentation and Pricing](https://pubsonline.informs.org/doi/full/10.1287/opre.2022.0490) w/ Titing Cui. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_SS.pptx) [[Code]](https://github.com/tcui-pitt/FBMSP)
+* [Optimal Feature-Based Market Segmentation and Pricing](https://pubsonline.informs.org/doi/full/10.1287/opre.2022.0490) w/ Titing Cui. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4151103) [[Slides]](https://mhamilton-pitt.github.io/files/FBMSP_SS.pptx) [[Code]](https://github.com/tcui-pitt/FBMSP) [[Prove2Me Formalization]](https://prove2.me/missions/Optimal_Feature-Based_Market_Segmentation_and_Pricing)
   * (**J**) **Operations Research** (Feb. 2026)
   * (**C**) Accepted in *The 18th Conference on Web and Internet Economics (**WINE**)*, 2022.
   * <span style="color: orange;">Third Place, INFORMS Service Science Cluster Best Paper Award, 2022.</span>
