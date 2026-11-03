@@ -39,7 +39,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 
 # **Working Papers**
 
-* [Can Price Discrimination be Progressive?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141372) w/ Max Biggs, Titing Cui and Enfeng Xing. [[Code]](https://github.com/tcui-pitt/Progressive_Pricing)
+* [Can Price Discrimination be Progressive?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5141372) w/ Max Biggs, Titing Cui and Enfeng Xing.
   * (**J**) Major Revision at **Operations Research**.
   * <span style="color: orange;"> Third Place, INFORMS Junior Faculty Interest Group (JFIG) Paper Competition, 2025.  </span>
 
@@ -61,7 +61,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 * [Unit-Demand Pricing for Min-Buying Customers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5178133) w/ Titing Cui, Jourdain Lamperski, and Kasra Tari. [[Prove2Me Formalization]](https://prove2.me/missions/Unit-Demand_Pricing_for_Min-Buying_Customers)
   * (**J**) Submitted.
 
-* [The Effects of Competition on Corporate Sustainability](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344348) w/ Titing Cui, Esther Gal-Or, Mike Gordon, and Jennifer Shang. [[Slides]](https://mhamilton-pitt.github.io/files/Corporate_Sustainability_slides.pptx)[[Code]](https://github.com/tcui-pitt/Sustainable_Investment) [[Video]](https://www.youtube.com/watch?v=IYGTRO25Fng)
+* [The Effects of Competition on Corporate Sustainability](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344348) w/ Titing Cui, Esther Gal-Or, Mike Gordon, and Jennifer Shang. [[Code]](https://github.com/tcui-pitt/Sustainable_Investment)
   * (**C**) Accepted in *The 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (**EAAMO**)*, 2023.
 
 * [Can LLMs Price Optimally? Evidence from Pricing Benchmarks]() w/ Qiqi Hao, Enfal Arisoy, Ovunc Yilmaz, Maxime C. Cohen, Titing Cui, Xindo Shao and Alex Lim. [[Direct Link]](https://mhamilton-pitt.github.io/files/) [[Website]](https://enfalarisoy.github.io/aibenchmark/)
