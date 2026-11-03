@@ -64,6 +64,4 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
 * [The Effects of Competition on Corporate Sustainability](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344348) w/ Titing Cui, Esther Gal-Or, Mike Gordon, and Jennifer Shang. [[Slides]](https://mhamilton-pitt.github.io/files/Corporate_Sustainability_slides.pptx)[[Code]](https://github.com/tcui-pitt/Sustainable_Investment) [[Video]](https://www.youtube.com/watch?v=IYGTRO25Fng)
   * (**C**) Accepted in *The 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (**EAAMO**)*, 2023.
 
-# **Work in Progress**
-
-* [Can LLMs Price Optimally? Evidence from Pricing Benchmarks]() w/ Qiqi Hao, Ovunc Yilmaz, Maxime Cohen, Titing Cui, and Alex Lim. [[Slides]](https://mhamilton-pitt.github.io/files/Benchmarking AI Pricing RMP 26.pptx)
+* [Can LLMs Price Optimally? Evidence from Pricing Benchmarks]() w/ Qiqi Hao, Enfal Arisoy, Ovunc Yilmaz, Maxime C. Cohen, Titing Cui, Xindo Shao and Alex Lim. [[Direct Link]](https://mhamilton-pitt.github.io/files/) [[Website]](https://enfalarisoy.github.io/aibenchmark/)
