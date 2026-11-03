@@ -48,7 +48,7 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
   * (**C**) Accepted in *The 20th Conference on Web and Internet Economics (**WINE**)*, 2024.
   * <span style="color: orange;"> Finalist, 2020 RMP Data-Driven Research Challenge.  </span>
 
-* [Platform Design with Prosocial Participants: Lessons from 412Connect](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4735098) w/ Alex DiChristofano, Qiqi Hao, and Sera Linardi. 
+* [Platform Design with Prosocial Participants: Lessons from 412Connect](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4735098) w/ Alex DiChristofano, Qiqi Hao, and Sera Linardi. [[Code]](https://anonymous.4open.science/r/412connect/)
   * (**J**) Major Revision at **Operations Research**.
   * (**C**) Accepted in *The 1st ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (**EAAMO**)*, 2021. **Oral Presentation.** Previously titled _[Project 412Connect: Bridging Students and Communities](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3923036)_
   * <span style="color: orange;">New Horizons Award for Bridging Research and Practice at EAAMO'21</span>
