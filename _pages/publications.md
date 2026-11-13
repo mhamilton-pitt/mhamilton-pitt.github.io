@@ -20,17 +20,17 @@ _Note_: Author ordering on all papers is alphabetical, as is convention in OR/MS
   * (**C**) Accepted in *The 18th Conference on Web and Internet Economics (**WINE**)*, 2022.
   * <span style="color: orange;">Third Place, INFORMS Service Science Cluster Best Paper Award, 2022.</span>
 
-* [The Value of Personalized Pricing](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3821) with Adam N. Elmachtoub and Vishal Gupta. [[Direct Link]](https://mhamilton-pitt.github.io/files/vopp_final.pdf) [[Code]](https://github.com/vgupta1/VoPP_OptProblems)
+* [The Value of Personalized Pricing](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3821) with Adam N. Elmachtoub and Vishal Gupta. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3127719) [[Code]](https://github.com/vgupta1/VoPP_OptProblems)
   * (**J**) **Management Science** (April 2021) 
   * (**C**) Accepted in *The 15th Conference on Web and Internet Economics (**WINE**)*, 2019.
   * <span style="color: orange;">Finalist, INFORMS Service Science Cluster Best Paper Award, 2018. </span>
 
-* [The Power of Opaque Products in Pricing](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3750) with Adam N. Elmachtoub. [[Direct Link]](https://mhamilton-pitt.github.io/files/opq_final.pdf) [[Code]](https://github.com/mhamilton-pitt/OPQ-Experiments)
+* [The Power of Opaque Products in Pricing](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3750) with Adam N. Elmachtoub. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3025944) [[Code]](https://github.com/mhamilton-pitt/OPQ-Experiments)
   * (**J**) **Management Science** (Jan. 2021)
   * (**C**) Accepted in *The 13th Conference on Web and Internet Economics (**WINE**)*, 2017.
   * <span style="color: orange;"> Feature article. Selected for [Management Science Review Blog](https://www.informs.org/Blogs/ManSci-Blogs/Management-Science-Review/Don-t-make-me-choose!-Opaque-selling-as-an-alternative-to-discriminatory-pricing)</span>
 
-* [Loot Box Pricing and Design](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3748) with Ningyuan Chen, Adam N. Elmachtoub, and Xiao Lei. [[Direct Link]](https://mhamilton-pitt.github.io/files/lb_final.pdf) [[Code]](https://github.com/leixiao32229/LBPD)
+* [Loot Box Pricing and Design](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3748) with Ningyuan Chen, Adam N. Elmachtoub, and Xiao Lei. [[Direct Link]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3430125) [[Code]](https://github.com/leixiao32229/LBPD)
   * (**J**) **Management Science** (Dec. 2020)
   * (**C**) Accepted in *The 21st ACM Conference on Economics and Computation (**EC**)*, 2020.
   * <span style="color: orange;">Finalist, 2021 CSAMSE Conference Best Paper Award.</span>
