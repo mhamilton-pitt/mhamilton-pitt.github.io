@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Mike, I'm an Assistant Professor of Operations Management at [Baruch College, CUNY](https://zicklin.baruch.cuny.edu/subject_matter_expert/operations-management/) and an affiliated member of the CUNY Graduate Center(https://www.gc.cuny.edu/). Previously, I was an Assistant Professor at the University of Pittsburgh. Before that, I received my Ph.D. from Columbia University in [Operations Research](https://ieor.columbia.edu/) and a B.Sc. from Rutgers University in [Mathematics](https://www.math.rutgers.edu/). 
+Hi! I'm Mike, I'm an Assistant Professor of Operations Management at [Baruch College, CUNY](https://zicklin.baruch.cuny.edu/subject_matter_expert/operations-management/) and an affiliated member of the [CUNY Graduate Center](https://www.gc.cuny.edu/). Previously, I was an Assistant Professor at the University of Pittsburgh. Before that, I received my Ph.D. from Columbia University in [Operations Research](https://ieor.columbia.edu/) and a B.Sc. from Rutgers University in [Mathematics](https://www.math.rutgers.edu/). 
 
 My research centers around pricing and market design. I look at how changes in the structure and mechanics of price offerings impact market outcomes, with diverse applications in e-commerce and market design for social good. For more details about my work, please see my [CV](https://mhamilton-pitt.github.io/files/CV.pdf), [Google Scholar](https://scholar.google.com/citations?user=kJjuGMgAAAAJ&hl=en), and/or my [Papers](https://mhamilton-pitt.github.io/publications/).
 
